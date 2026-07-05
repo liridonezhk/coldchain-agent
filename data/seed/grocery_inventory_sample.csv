@@ -1,0 +1,7 @@
+Product_Name,Catagory,Supplier_ID,Supplier_Name,Stock_Quantity,Reorder_Level,Reorder_Quantity,Unit_Price,Date_Received,Last_Order_Date,Expiration_Date,Warehouse_Location,Sales_Volume,Inventory_Turnover_Rate,Status
+Whole Milk 2L,Dairy,SUP-014,FreshFarm Co,500,120,400,1.85,2026-06-18,2026-06-20,2026-06-30,Zone-A Cold,88,12.4,Active
+Greek Yogurt 500g,Dairy,SUP-014,FreshFarm Co,320,100,300,2.40,2026-06-19,2026-06-21,2026-07-03,Zone-A Cold,41,9.1,Active
+Cheddar Block 1kg,Dairy,SUP-022,Hillside Dairy,180,60,150,6.10,2026-06-10,2026-06-15,2026-07-15,Zone-A Cold,16,4.2,Active
+Strawberries 250g,Produce,SUP-009,BerryGood Ltd,12,80,200,3.20,2026-06-22,2026-06-23,2026-06-27,Zone-B Cold,57,15.8,Active
+Spinach Bag 200g,Produce,SUP-009,BerryGood Ltd,160,70,180,1.95,2026-06-21,2026-06-22,2026-06-28,Zone-B Cold,49,13.0,Active
+Chicken Breast 1kg,Meat,SUP-031,ProteinPlus,210,90,200,7.50,2026-06-20,2026-06-22,2026-07-01,Zone-C Frozen,38,8.7,Active

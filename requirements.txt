@@ -1,0 +1,15 @@
+# Deps for the Cold-Chain Inventory Optimization Agent.
+#
+# The DEFAULT demo (--engine heuristic) runs on the Python standard library alone —
+# no install needed. These packages are required only for the real agent layer:
+#
+#   --engine adk   ->  google-adk + mcp  (and a model API key, e.g. GOOGLE_API_KEY)
+#   serve the MCP server (python -m mcp_server.server)  ->  mcp
+
+mcp>=1.2.0             # Model Context Protocol server/client (mcp_server/server.py)
+google-adk>=1.0.0     # ADK multi-agent layer (agents/adk_agents.py)
+python-dotenv>=1.0.0  # load this project's own .env (never a parent project's)
+
+# Optional: use Claude instead of Gemini for the ADK agents (swap MODEL in adk_agents.py).
+# litellm>=1.40.0     # LiteLlm backend for ADK
+# anthropic>=0.40.0   # if calling Claude directly

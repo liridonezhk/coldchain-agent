@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.python-version
+*.log
+.DS_Store
+# Do NOT commit the full Kaggle CSV if it's large; the sample seed is enough.
+# data/seed/grocery_inventory_full.csv

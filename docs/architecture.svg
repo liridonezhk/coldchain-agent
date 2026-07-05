@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 760" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowUp" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#0d9488"/>
+    </marker>
+    <style>
+      .title  { font-size: 26px; font-weight: 700; fill: #0f172a; }
+      .sub    { font-size: 14px; fill: #64748b; }
+      .box-t  { font-size: 18px; font-weight: 700; }
+      .box-d  { font-size: 12.5px; }
+      .tool   { font-size: 12.5px; fill: #1e293b; font-family: 'SF Mono', Menlo, Consolas, monospace; }
+      .lbl    { font-size: 11.5px; fill: #64748b; }
+      .gate-t { font-size: 14px; font-weight: 700; fill: #92400e; }
+      .gate-d { font-size: 11.5px; fill: #b45309; }
+      .flow   { stroke: #94a3b8; stroke-width: 1.6; fill: none; }
+      .flowUp { stroke: #0d9488; stroke-width: 1.6; fill: none; stroke-dasharray: 5 4; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="40" y="46" class="title">Cold-Chain Inventory Optimization Agent</text>
+  <text x="40" y="70" class="sub">Multi-agent ADK system over an MCP tool layer, with a human-approval security gate</text>
+
+  <!-- Orchestrator -->
+  <rect x="320" y="100" width="360" height="84" rx="12" fill="#0f172a"/>
+  <text x="500" y="132" text-anchor="middle" class="box-t" fill="#ffffff">ORCHESTRATOR</text>
+  <text x="500" y="154" text-anchor="middle" class="box-d" fill="#cbd5e1">owns the spoilage / stockout / holding-cost tradeoff</text>
+  <text x="500" y="171" text-anchor="middle" class="box-d" fill="#cbd5e1">ranks actions by urgency · enforces the approval gate</text>
+
+  <!-- connectors orchestrator -> specialists -->
+  <path class="flow" d="M410,184 C410,225 235,210 235,250" marker-end="url(#arrow)"/>
+  <path class="flow" d="M500,184 L500,250" marker-end="url(#arrow)"/>
+  <path class="flow" d="M590,184 C590,225 765,210 765,250" marker-end="url(#arrow)"/>
+  <text x="640" y="222" class="lbl">delegates each cycle</text>
+
+  <!-- Specialists -->
+  <g>
+    <rect x="95" y="250" width="280" height="108" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="235" y="280" text-anchor="middle" class="box-t" fill="#0f766e">MONITORING agent</text>
+    <text x="235" y="304" text-anchor="middle" class="box-d" fill="#115e59">reads inventory + temperature feed</text>
+    <text x="235" y="322" text-anchor="middle" class="box-d" fill="#115e59">emits concerns: temp excursion,</text>
+    <text x="235" y="339" text-anchor="middle" class="box-d" fill="#115e59">near-expiry → collapsed shelf life</text>
+  </g>
+  <g>
+    <rect x="380" y="250" width="240" height="108" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="500" y="280" text-anchor="middle" class="box-t" fill="#0f766e">DEMAND agent</text>
+    <text x="500" y="304" text-anchor="middle" class="box-d" fill="#115e59">estimates near-term</text>
+    <text x="500" y="322" text-anchor="middle" class="box-d" fill="#115e59">daily pull per product,</text>
+    <text x="500" y="339" text-anchor="middle" class="box-d" fill="#115e59">primed by seed sales volume</text>
+  </g>
+  <g>
+    <rect x="625" y="250" width="280" height="108" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="1.5"/>
+    <text x="765" y="280" text-anchor="middle" class="box-t" fill="#0f766e">REPLENISHMENT agent</text>
+    <text x="765" y="304" text-anchor="middle" class="box-d" fill="#115e59">coverage = units / daily demand</text>
+    <text x="765" y="322" text-anchor="middle" class="box-d" fill="#115e59">&lt; 3d → reorder · &lt; 1d → expedite</text>
+    <text x="765" y="339" text-anchor="middle" class="box-d" fill="#115e59">balances spoilage vs. stockout vs. cost</text>
+  </g>
+
+  <!-- specialists <-> MCP -->
+  <path class="flow" d="M235,358 L235,420 L455,420" marker-end="url(#arrow)"/>
+  <path class="flow" d="M500,358 L500,412" marker-end="url(#arrow)"/>
+  <path class="flow" d="M765,358 L765,420 L545,420" marker-end="url(#arrow)"/>
+  <text x="512" y="400" class="lbl">tool calls</text>
+
+  <!-- MCP server -->
+  <rect x="250" y="430" width="500" height="132" rx="12" fill="#e0e7ff" stroke="#4f46e5" stroke-width="1.5"/>
+  <text x="500" y="458" text-anchor="middle" class="box-t" fill="#3730a3">MCP SERVER  (FastMCP, over stdio)</text>
+  <line x1="276" y1="470" x2="724" y2="470" stroke="#a5b4fc" stroke-width="1"/>
+  <text x="300" y="494" class="tool">get_inventory</text>
+  <text x="300" y="516" class="tool">get_temp_feed</text>
+  <text x="300" y="538" class="tool">get_supplier_status</text>
+  <text x="540" y="494" class="tool">get_demand</text>
+  <text x="540" y="516" class="tool">place_order</text>
+  <rect x="612" y="503" width="108" height="20" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+  <text x="666" y="517" text-anchor="middle" font-size="11" font-weight="700" fill="#92400e">GATED</text>
+  <text x="540" y="538" class="lbl">4 read tools · 1 side-effectful</text>
+
+  <!-- MCP -> data -->
+  <path class="flow" d="M500,562 L500,610" marker-end="url(#arrow)"/>
+
+  <!-- Data layer -->
+  <rect x="170" y="620" width="660" height="96" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="500" y="648" text-anchor="middle" class="box-t" fill="#334155">SIMULATED DATA LAYER</text>
+  <text x="500" y="672" text-anchor="middle" class="box-d" fill="#475569">seeded from the Kaggle Grocery Inventory schema (real product/expiry/supplier shapes)</text>
+  <text x="500" y="691" text-anchor="middle" class="box-d" fill="#475569">+ scripted temperature-excursion event for a controllable, reproducible demo</text>
+
+  <!-- Security gate annotation (right) -->
+  <rect x="770" y="430" width="200" height="158" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="870" y="456" text-anchor="middle" class="gate-t">SECURITY GATE</text>
+  <text x="785" y="480" class="gate-d">place_order above the</text>
+  <text x="785" y="496" class="gate-d">$500 auto-approve limit is</text>
+  <text x="785" y="512" class="gate-d">irreversible → never</text>
+  <text x="785" y="528" class="gate-d">auto-executes.</text>
+  <text x="785" y="548" class="gate-d">Pauses for a human y/N</text>
+  <text x="785" y="564" class="gate-d">before it can proceed.</text>
+  <path class="flow" stroke="#f59e0b" d="M770,505 L724,510" marker-end="url(#arrow)"/>
+
+  <!-- Dual-engine annotation (left) -->
+  <rect x="30" y="430" width="200" height="158" rx="12" fill="#f0fdfa" stroke="#0d9488" stroke-width="1.5"/>
+  <text x="130" y="456" text-anchor="middle" class="box-t" fill="#0f766e" font-size="14">TWO ENGINES</text>
+  <text x="45" y="480" class="box-d" fill="#115e59">Same architecture, two</text>
+  <text x="45" y="496" class="box-d" fill="#115e59">implementations:</text>
+  <text x="45" y="516" class="box-d" fill="#115e59">• heuristic — deterministic,</text>
+  <text x="55" y="531" class="box-d" fill="#115e59">no key, for the video</text>
+  <text x="45" y="551" class="box-d" fill="#115e59">• adk — real LlmAgents</text>
+  <text x="55" y="566" class="box-d" fill="#115e59">reasoning over the tools</text>
+
+  <!-- output flow back up -->
+  <path class="flowUp" d="M380,420 C200,415 60,360 60,250 C60,180 250,150 318,142" marker-end="url(#arrowUp)"/>
+  <text x="62" y="205" class="lbl" fill="#0d9488">ranked actions</text>
+  <text x="62" y="220" class="lbl" fill="#0d9488">back to orchestrator</text>
+</svg>
