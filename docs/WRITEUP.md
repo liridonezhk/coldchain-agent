@@ -4,7 +4,7 @@
 
 *Track: **Agents for Business** — an agent that attacks a problem with real cost and revenue on the line: perishable inventory loss.*
 
-**Code:** `<your public GitHub repo URL>` · **Video:** `<your YouTube URL>`
+**Code:** https://github.com/liridonezhk/coldchain-agent · **Video:** https://www.youtube.com/watch?v=dQjA9IZXAgI
 
 ---
 
