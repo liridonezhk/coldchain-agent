@@ -1,5 +1,5 @@
 """
-Simulated data layer (Day 2) — seeded from the Kaggle Grocery Inventory dataset.
+Simulated data layer — seeded from the Kaggle Grocery Inventory dataset.
 
 Seed source: "Grocery Inventory and Sales Dataset" (CC BY 4.0)
   https://www.kaggle.com/datasets/salahuddinahmedshuvo/grocery-inventory-and-sales-dataset

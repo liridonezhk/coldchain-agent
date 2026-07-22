@@ -259,8 +259,8 @@ coldchain/
 ├── data/
 │   ├── sim.py                # simulated data layer (Kaggle-schema seed + excursion injector)
 │   └── seed/
-│       ├── grocery_inventory_sample.csv   # small 6-row sample (default; used for the video)
-│       └── grocery_inventory_full.csv     # optional real 990-row Kaggle export (wins if present)
+│       ├── grocery_inventory_sample.csv   # 6-row sample — the demo's default dataset
+│       └── grocery_inventory_full.csv     # (not included) add the real 990-row Kaggle export here
 ├── mcp_server/
 │   └── server.py             # MCP tool layer (FastMCP), incl. the gated place_order
 ├── agents/

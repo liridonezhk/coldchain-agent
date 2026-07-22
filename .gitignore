@@ -6,5 +6,6 @@ venv/
 .python-version
 *.log
 .DS_Store
-# Do NOT commit the full Kaggle CSV if it's large; the sample seed is enough.
-# data/seed/grocery_inventory_full.csv
+# Only the small sample seed ships in the repo (deterministic, matches the README/demo).
+# The full 990-row Kaggle export is not committed — add it locally per the README to run on real data.
+data/seed/grocery_inventory_full.csv

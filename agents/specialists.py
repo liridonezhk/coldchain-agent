@@ -12,7 +12,7 @@ from mcp_server import server as mcp
 
 def monitoring_agent() -> list[dict]:
     """
-    Day 3: read inventory + temp feed, emit structured 'concerns'.
+    Read inventory + the temperature feed and emit structured 'concerns'.
     A concern = something that threatens spoilage/stockout and may need action.
     """
     concerns = []
@@ -38,9 +38,9 @@ def monitoring_agent() -> list[dict]:
 
 def demand_agent() -> dict[str, int]:
     """
-    Day 3: near-term pull per product.
-    TODO(Day3): optionally enrich ONE product with a web-search external signal
-    (weather/local event) to demonstrate tool use. Cut this first if behind.
+    Estimate near-term daily pull per product.
+    Possible extension: enrich one product's demand with an external signal (a weather
+    or local-event web search) to demonstrate live tool use.
     """
     products = {i["product"] for i in mcp.tool_get_inventory()}
     return {p: mcp.tool_get_demand(p) for p in products}
@@ -48,7 +48,7 @@ def demand_agent() -> dict[str, int]:
 
 def replenishment_agent(concerns: list[dict], demand: dict[str, int]) -> list[dict]:
     """
-    Day 4 (the brain): balance spoilage vs. stockout vs. holding cost into proposed actions.
+    The brain: balance spoilage vs. stockout vs. holding cost into proposed actions.
 
     Heuristic, intentionally legible:
       - coverage_days = available_units / daily_demand
@@ -56,7 +56,6 @@ def replenishment_agent(concerns: list[dict], demand: dict[str, int]) -> list[di
       - low coverage => reorder; very low + expedite available => propose expedite (may gate)
     """
     inv = {i["batch_id"]: i for i in mcp.tool_get_inventory()}
-    suppliers = mcp.tool_get_supplier_status()
 
     # available units per product, excluding spoiled/excursion batches
     avail: dict[str, int] = {}
