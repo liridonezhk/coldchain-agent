@@ -118,8 +118,8 @@ Requires **Python 3.10+**.
 The **default demo runs on the standard library alone** — no install needed:
 
 ```bash
-git clone <your-repo-url>
-cd coldchain
+git clone https://github.com/liridonezhk/coldchain-agent.git
+cd coldchain-agent
 python -m demo.run --cycle normal
 ```
 
