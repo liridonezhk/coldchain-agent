@@ -7,7 +7,7 @@ wrong one?
 For each event in scenarios.jsonl the same path the agent uses (rag.excursion.assess) is
 run, and two things are classified against the labelled gold and lookalike passages:
   top passage    the highest-ranked retrieved chunk
-  quoted rule    the passage(s) the grounded answer actually quotes and cites
+  quoted rule    the passage the grounded answer quotes first (its primary citation)
 as  CORRECT    overlaps a gold passage
     LOOKALIKE  overlaps a labelled lookalike and no gold passage
     OTHER      neither
@@ -46,7 +46,7 @@ def main() -> None:
         # passages are returned without spans; look the chunk dicts up by id
         by_id = {c["chunk_id"]: c for c in _chunks()}
         top = [by_id[ret["passages"][0]["chunk_id"]]] if ret["supported"] else []
-        quoted = [by_id[c["chunk_id"]] for c in ans["citations"]]
+        quoted = [by_id[c["chunk_id"]] for c in ans["citations"][:1]]
         expect = "ABSTAINED" if not ev["gold"] else "CORRECT"
         r = {"id": ev["id"], "expect": expect, "top": classify(top, ev),
              "quoted": classify(quoted, ev), "support": ret["support_score"],

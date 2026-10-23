@@ -43,7 +43,12 @@ def extractive_answer(question: str, result: dict, encoder=None, max_quotes: int
     if encoder is None:
         from rag.embeddings import Encoder
         encoder = Encoder("minilm")
-    cands = [(p, s) for p in result["passages"][:3] for s in _sentences(p["text"])]
+    seen, cands = set(), []
+    for p in result["passages"][:3]:
+        for s in _sentences(p["text"]):
+            if s not in seen:          # overlapping chunks repeat boundary sentences
+                seen.add(s)
+                cands.append((p, s))
     if not cands:
         return {"supported": False, "answer": NOT_SUPPORTED, "citations": []}
     sims = encoder.encode([s for _, s in cands]) @ encoder.encode_query(question)

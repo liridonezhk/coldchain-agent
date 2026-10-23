@@ -3,7 +3,7 @@
     "id": "s1",
     "expect": "CORRECT",
     "top": "LOOKALIKE",
-    "quoted": "LOOKALIKE",
+    "quoted": "OTHER",
     "support": 0.6875,
     "top_chunk": "fda-pmo-2023#14",
     "answer": "\u201cAll pasteurized milk and milk products to be condensed and/or dried, shall be stored at a temperature of 10\u00b0C (50\u00b0F) or less and be maintained thereat until further processed.\u201d [fda-pmo-2023#17] \u201cAll pasteurized milk and milk products, except the following, shall be stored at a temperature of 7\u00b0C (45\u00b0F) or less and maintained thereat following filling or until further processed:\u201d [fda-pmo-2023#14]"
@@ -15,7 +15,7 @@
     "quoted": "CORRECT",
     "support": 0.6744,
     "top_chunk": "fda-pmo-2023#18",
-    "answer": "\u201cOn delivery vehicles, the temperature of milk and milk products shall not exceed 7\u00b0C (45\u00b0F).\u201d [fda-pmo-2023#18] \u201cOn delivery vehicles, the temperature of milk and milk products shall not exceed 7\u00b0C (45\u00b0F).\u201d [fda-pmo-2023#17]"
+    "answer": "\u201cOn delivery vehicles, the temperature of milk and milk products shall not exceed 7\u00b0C (45\u00b0F).\u201d [fda-pmo-2023#18] \u201cAll pasteurized milk and milk products to be condensed and/or dried, shall be stored at a temperature of 10\u00b0C (50\u00b0F) or less and be maintained thereat until further processed.\u201d [fda-pmo-2023#17]"
   },
   {
     "id": "s3",
@@ -48,7 +48,7 @@
     "id": "s6",
     "expect": "CORRECT",
     "top": "CORRECT",
-    "quoted": "CORRECT",
+    "quoted": "OTHER",
     "support": 0.738,
     "top_chunk": "eu-853-2004#224",
     "answer": "\u201cAll raw milk and milk products shall be maintained at 7\u00b0C (45\u00b0F) or less until processed.\u201d [fda-pmo-2023#10] \u201cImmediately after milking, milk and colostrum must be held in a clean place designed and equipped to avoid contamination. (a) Milk must be cooled immediately to not more than 8 \u00b0C in the case of daily collection, or not more than 6 \u00b0C if collection is not daily; (b) Colostrum must be stored separately and immediately cooled to not more than 8 \u00b0C in the case of daily collection, or not more than 6 \u00b0C if collection is not daily, or frozen.\u201d [eu-853-2004#224]"
