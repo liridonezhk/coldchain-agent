@@ -39,7 +39,68 @@ class BM25Retriever:
         return [(self.chunks[i], s[i]) for i in order]
 
 
-REGISTRY = {"bm25": BM25Retriever}
+class HybridRetriever:
+    """
+    Reciprocal rank fusion of BM25 and embeddings: score = sum over retrievers of
+    1 / (60 + rank). It uses only ranks, so the two very different score scales never
+    have to be reconciled. 60 is the constant from the original RRF paper (Cormack et al. 2009).
+    """
+    name = "hybrid"
+
+    def __init__(self, chunks: list[dict], parts: list | None = None, depth: int = 50):
+        from rag.embeddings import DenseRetriever
+        self.chunks = chunks
+        self.parts = parts or [BM25Retriever(chunks), DenseRetriever(chunks, "minilm")]
+        self.depth = depth
+
+    def search(self, query: str, k: int = 5):
+        fused: dict[str, float] = {}
+        by_id = {}
+        for r in self.parts:
+            for rank, (c, _) in enumerate(r.search(query, self.depth), 1):
+                fused[c["chunk_id"]] = fused.get(c["chunk_id"], 0.0) + 1 / (60 + rank)
+                by_id[c["chunk_id"]] = c
+        top = sorted(fused, key=lambda i: -fused[i])[:k]
+        return [(by_id[i], fused[i]) for i in top]
+
+
+class ShippedRetriever:
+    """
+    What the MCP tool uses, chosen on the measurements in rag/eval/results/ (see README):
+      * ranking:  BGE-small embeddings over section chunks (best recall and near-miss
+                  recall of everything tried)
+      * support:  the top MiniLM cosine score over the same chunks. BGE's scores bunch
+                  together (answerable and unanswerable questions overlap), MiniLM's
+                  separate cleanly, so MiniLM decides whether the corpus covers the query.
+    """
+    name = "shipped"
+    SUPPORT_THRESHOLD = 0.60   # highest unanswerable scored 0.593; all but one answerable >= 0.613
+
+    def __init__(self, chunks: list[dict]):
+        from rag.embeddings import DenseRetriever
+        self.chunks = chunks
+        self.rank = DenseRetriever(chunks, "bge")
+        self.gate = DenseRetriever(chunks, "minilm")
+
+    def search(self, query: str, k: int = 5):
+        return self.rank.search(query, k)
+
+    def support_score(self, query: str) -> float:
+        return float(self.gate.scores(query).max())
+
+    def supported(self, query: str) -> bool:
+        return self.support_score(query) >= self.SUPPORT_THRESHOLD
+
+
+def _dense(model):
+    def make(chunks):
+        from rag.embeddings import DenseRetriever
+        return DenseRetriever(chunks, model)
+    return make
+
+
+REGISTRY = {"bm25": BM25Retriever, "minilm": _dense("minilm"), "bge": _dense("bge"),
+            "hybrid": HybridRetriever, "shipped": ShippedRetriever}
 
 
 def build(name: str, chunking: str = "section"):

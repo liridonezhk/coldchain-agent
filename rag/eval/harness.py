@@ -76,7 +76,10 @@ def evaluate(retriever, questions: list[dict], k_max: int = 10) -> dict:
     per_q = []
     for q in questions:
         ranked = retriever.search(q["question"], k_max)
-        row = {"id": q["id"], "type": q["type"], "top_score": ranked[0][1] if ranked else 0.0,
+        # A retriever may expose a separate support score for abstention; default: top score.
+        support = (retriever.support_score(q["question"]) if hasattr(retriever, "support_score")
+                   else (ranked[0][1] if ranked else 0.0))
+        row = {"id": q["id"], "type": q["type"], "top_score": support,
                "top": [c["chunk_id"] for c, _ in ranked[:5]]}
         if q["type"] != "unanswerable":
             gold = q["gold"]
