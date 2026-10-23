@@ -1,0 +1,702 @@
+{
+  "per_question": [
+    {
+      "id": "q01",
+      "type": "answerable",
+      "top_score": 0.7911486625671387,
+      "top": [
+        "fda-food-code-2022#21",
+        "fda-food-code-2022#16",
+        "fsa-chilling#1",
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#2"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q02",
+      "type": "answerable",
+      "top_score": 0.8101834058761597,
+      "top": [
+        "fda-food-code-2022#19",
+        "fsa-chilling#1",
+        "fsa-chilling#2",
+        "fsa-chilling#3",
+        "eu-853-2004#200"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q03",
+      "type": "answerable",
+      "top_score": 0.7508829832077026,
+      "top": [
+        "fsa-chilling#1",
+        "fda-food-code-2022#22",
+        "fda-food-code-2022#27",
+        "fda-food-code-2022#31",
+        "eu-853-2004#110"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.5
+    },
+    {
+      "id": "q04",
+      "type": "answerable",
+      "top_score": 0.7330647706985474,
+      "top": [
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#2",
+        "fda-food-code-2022#16",
+        "fda-food-code-2022#27",
+        "fda-food-code-2022#37"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.5
+    },
+    {
+      "id": "q05",
+      "type": "answerable",
+      "top_score": 0.7452338933944702,
+      "top": [
+        "eu-853-2004#237",
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#2",
+        "eu-853-2004#241",
+        "eu-853-2004#239"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.3333333333333333
+    },
+    {
+      "id": "q06",
+      "type": "answerable",
+      "top_score": 0.7393619418144226,
+      "top": [
+        "eu-853-2004#224",
+        "eu-853-2004#229",
+        "fda-pmo-2023#18",
+        "fda-pmo-2023#17",
+        "fda-pmo-2023#19"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.4,
+      "rr": 0.3333333333333333
+    },
+    {
+      "id": "q07",
+      "type": "answerable",
+      "top_score": 0.7803897261619568,
+      "top": [
+        "eu-853-2004#241",
+        "eu-853-2004#237",
+        "eu-853-2004#243",
+        "fda-food-code-2022#19",
+        "eu-853-2004#240"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q08",
+      "type": "answerable",
+      "top_score": 0.6580669283866882,
+      "top": [
+        "ecfr-21-1-subpart-o#19",
+        "ecfr-21-1-subpart-o#20",
+        "ecfr-21-1-subpart-o#12",
+        "ecfr-21-1-subpart-o#18",
+        "ecfr-21-1-subpart-o#13"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.3333333333333333
+    },
+    {
+      "id": "q09",
+      "type": "answerable",
+      "top_score": 0.7393440008163452,
+      "top": [
+        "ecfr-21-1-subpart-o#20",
+        "ecfr-21-1-subpart-o#19",
+        "eu-853-2004#212",
+        "ecfr-21-1-subpart-o#17",
+        "eu-853-2004#192"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.6666666666666666,
+      "recall@5": 1.0,
+      "precision@5": 0.4,
+      "rr": 1.0
+    },
+    {
+      "id": "q10",
+      "type": "answerable",
+      "top_score": 0.7204864025115967,
+      "top": [
+        "fda-food-code-2022#2",
+        "fda-food-code-2022#16",
+        "ecfr-21-1-subpart-o#18",
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#27"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.3333333333333333
+    },
+    {
+      "id": "q11",
+      "type": "answerable",
+      "top_score": 0.8211894035339355,
+      "top": [
+        "ecfr-21-1-subpart-o#23",
+        "ecfr-21-1-subpart-o#22",
+        "ecfr-21-1-subpart-o#24",
+        "ecfr-21-1-subpart-o#25",
+        "ecfr-21-1-subpart-o#15"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q12",
+      "type": "answerable",
+      "top_score": 0.8068110942840576,
+      "top": [
+        "fsa-chilling#1",
+        "eu-853-2004#109",
+        "fda-food-code-2022#21",
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#30"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q13",
+      "type": "answerable",
+      "top_score": 0.7931818962097168,
+      "top": [
+        "eu-853-2004#224",
+        "eu-853-2004#229",
+        "eu-853-2004#43",
+        "eu-853-2004#227",
+        "eu-853-2004#232"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q14",
+      "type": "answerable",
+      "top_score": 0.7995631098747253,
+      "top": [
+        "eu-853-2004#184",
+        "eu-853-2004#193",
+        "eu-853-2004#210",
+        "eu-853-2004#211",
+        "eu-853-2004#175"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.3333333333333333
+    },
+    {
+      "id": "q15",
+      "type": "answerable",
+      "top_score": 0.8307496309280396,
+      "top": [
+        "eu-dir-89-108#6",
+        "eu-853-2004#213",
+        "eu-37-2005#3",
+        "eu-853-2004#212",
+        "eu-dir-89-108#7"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q16",
+      "type": "answerable",
+      "top_score": 0.7800812721252441,
+      "top": [
+        "eu-37-2005#4",
+        "fsa-chilling#1",
+        "eu-dir-89-108#10",
+        "eu-853-2004#110",
+        "eu-853-2004#136"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q17",
+      "type": "answerable",
+      "top_score": 0.7351056337356567,
+      "top": [
+        "eu-853-2004#224",
+        "eu-853-2004#229",
+        "eu-853-2004#233",
+        "eu-853-2004#227",
+        "eu-853-2004#232"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0
+    },
+    {
+      "id": "q18",
+      "type": "answerable",
+      "top_score": 0.8029754161834717,
+      "top": [
+        "eu-853-2004#132",
+        "eu-853-2004#136",
+        "eu-853-2004#134",
+        "eu-853-2004#109",
+        "eu-853-2004#133"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 0.0,
+      "precision@3": 0.0,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.2
+    },
+    {
+      "id": "n01",
+      "type": "near_miss",
+      "top_score": 0.8445317149162292,
+      "top": [
+        "fda-pmo-2023#14",
+        "fda-pmo-2023#17",
+        "fda-pmo-2023#18",
+        "fda-pmo-2023#10",
+        "fda-pmo-2023#19"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0,
+      "lookalike@1": false
+    },
+    {
+      "id": "n02",
+      "type": "near_miss",
+      "top_score": 0.829790472984314,
+      "top": [
+        "fsa-chilling#1",
+        "eu-853-2004#110",
+        "fda-food-code-2022#37",
+        "eu-853-2004#109",
+        "fda-food-code-2022#31"
+      ],
+      "recall@1": 1.0,
+      "precision@1": 1.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 1.0,
+      "lookalike@1": false
+    },
+    {
+      "id": "n03",
+      "type": "near_miss",
+      "top_score": 0.6712994575500488,
+      "top": [
+        "fda-food-code-2022#16",
+        "fsa-chilling#1",
+        "fda-food-code-2022#21",
+        "fda-food-code-2022#30",
+        "fda-food-code-2022#28"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 0.0,
+      "precision@3": 0.0,
+      "recall@5": 1.0,
+      "precision@5": 0.4,
+      "rr": 0.25,
+      "lookalike@1": false
+    },
+    {
+      "id": "n04",
+      "type": "near_miss",
+      "top_score": 0.8032766580581665,
+      "top": [
+        "eu-853-2004#93",
+        "eu-853-2004#109",
+        "eu-853-2004#89",
+        "eu-853-2004#94",
+        "eu-853-2004#92"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.5,
+      "lookalike@1": false
+    },
+    {
+      "id": "n05",
+      "type": "near_miss",
+      "top_score": 0.8133022785186768,
+      "top": [
+        "eu-853-2004#229",
+        "fda-pmo-2023#5",
+        "fda-pmo-2023#13",
+        "eu-853-2004#224",
+        "fda-pmo-2023#18"
+      ],
+      "recall@1": 0.0,
+      "precision@1": 0.0,
+      "recall@3": 1.0,
+      "precision@3": 0.3333333333333333,
+      "recall@5": 1.0,
+      "precision@5": 0.2,
+      "rr": 0.5,
+      "lookalike@1": false
+    },
+    {
+      "id": "u01",
+      "type": "unanswerable",
+      "top_score": 0.7418136596679688,
+      "top": [
+        "eu-853-2004#211",
+        "eu-853-2004#97",
+        "eu-853-2004#136",
+        "fda-pmo-2023#17",
+        "eu-853-2004#96"
+      ]
+    },
+    {
+      "id": "u02",
+      "type": "unanswerable",
+      "top_score": 0.7519965171813965,
+      "top": [
+        "fsa-chilling#1",
+        "fda-food-code-2022#19",
+        "fda-food-code-2022#21",
+        "eu-853-2004#211",
+        "eu-853-2004#109"
+      ]
+    },
+    {
+      "id": "u03",
+      "type": "unanswerable",
+      "top_score": 0.6475102305412292,
+      "top": [
+        "fda-food-code-2022#17",
+        "fda-pmo-2023#16",
+        "eu-853-2004#79",
+        "eu-853-2004#253",
+        "eu-853-2004#133"
+      ]
+    },
+    {
+      "id": "u04",
+      "type": "unanswerable",
+      "top_score": 0.6878952980041504,
+      "top": [
+        "fda-pmo-2023#10",
+        "fda-pmo-2023#14",
+        "eu-dir-89-108#6",
+        "eu-853-2004#211",
+        "fda-pmo-2023#17"
+      ]
+    },
+    {
+      "id": "u05",
+      "type": "unanswerable",
+      "top_score": 0.6857990622520447,
+      "top": [
+        "ecfr-21-1-subpart-o#20",
+        "ecfr-21-1-subpart-o#9",
+        "ecfr-21-1-subpart-o#19",
+        "eu-853-2004#246",
+        "fda-pmo-2023#18"
+      ]
+    },
+    {
+      "id": "u06",
+      "type": "unanswerable",
+      "top_score": 0.6025393605232239,
+      "top": [
+        "eu-853-2004#90",
+        "eu-37-2005#1",
+        "eu-37-2005#5",
+        "fda-pmo-2023#17",
+        "fda-food-code-2022#38"
+      ]
+    }
+  ],
+  "summary": {
+    "n_answerable": 23,
+    "n_unanswerable": 6,
+    "all": {
+      "recall@1": 0.522,
+      "precision@1": 0.522,
+      "recall@3": 0.913,
+      "precision@3": 0.319,
+      "recall@5": 1.0,
+      "precision@5": 0.226,
+      "mrr": 0.701
+    },
+    "answerable": {
+      "recall@1": 0.556,
+      "precision@1": 0.556,
+      "recall@3": 0.944,
+      "precision@3": 0.333,
+      "recall@5": 1.0,
+      "precision@5": 0.222,
+      "mrr": 0.715
+    },
+    "near_miss": {
+      "recall@1": 0.4,
+      "precision@1": 0.4,
+      "recall@3": 0.8,
+      "precision@3": 0.267,
+      "recall@5": 1.0,
+      "precision@5": 0.24,
+      "mrr": 0.65
+    },
+    "lookalike@1": 0.0,
+    "abstain": {
+      "threshold": 0.7801,
+      "false_answer": 0.0,
+      "wrong_abstain": 0.391
+    },
+    "threshold_sweep": [
+      {
+        "threshold": 0.6025,
+        "false_answer": 1.0,
+        "wrong_abstain": 0.0
+      },
+      {
+        "threshold": 0.6475,
+        "false_answer": 0.833,
+        "wrong_abstain": 0.0
+      },
+      {
+        "threshold": 0.6581,
+        "false_answer": 0.667,
+        "wrong_abstain": 0.0
+      },
+      {
+        "threshold": 0.6713,
+        "false_answer": 0.667,
+        "wrong_abstain": 0.043
+      },
+      {
+        "threshold": 0.6858,
+        "false_answer": 0.667,
+        "wrong_abstain": 0.087
+      },
+      {
+        "threshold": 0.6879,
+        "false_answer": 0.5,
+        "wrong_abstain": 0.087
+      },
+      {
+        "threshold": 0.7205,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.087
+      },
+      {
+        "threshold": 0.7331,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.13
+      },
+      {
+        "threshold": 0.7351,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.174
+      },
+      {
+        "threshold": 0.7393,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.217
+      },
+      {
+        "threshold": 0.7394,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.261
+      },
+      {
+        "threshold": 0.7418,
+        "false_answer": 0.333,
+        "wrong_abstain": 0.304
+      },
+      {
+        "threshold": 0.7452,
+        "false_answer": 0.167,
+        "wrong_abstain": 0.304
+      },
+      {
+        "threshold": 0.7509,
+        "false_answer": 0.167,
+        "wrong_abstain": 0.348
+      },
+      {
+        "threshold": 0.752,
+        "false_answer": 0.167,
+        "wrong_abstain": 0.391
+      },
+      {
+        "threshold": 0.7801,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.391
+      },
+      {
+        "threshold": 0.7804,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.435
+      },
+      {
+        "threshold": 0.7911,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.478
+      },
+      {
+        "threshold": 0.7932,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.522
+      },
+      {
+        "threshold": 0.7996,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.565
+      },
+      {
+        "threshold": 0.803,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.609
+      },
+      {
+        "threshold": 0.8033,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.652
+      },
+      {
+        "threshold": 0.8068,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.696
+      },
+      {
+        "threshold": 0.8102,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.739
+      },
+      {
+        "threshold": 0.8133,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.783
+      },
+      {
+        "threshold": 0.8212,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.826
+      },
+      {
+        "threshold": 0.8298,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.87
+      },
+      {
+        "threshold": 0.8307,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.913
+      },
+      {
+        "threshold": 0.8445,
+        "false_answer": 0.0,
+        "wrong_abstain": 0.957
+      }
+    ]
+  }
+}

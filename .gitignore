@@ -9,3 +9,9 @@ venv/
 # Only the small sample seed ships in the repo (deterministic, matches the README/demo).
 # The full 990-row Kaggle export is not committed — add it locally per the README to run on real data.
 data/seed/grocery_inventory_full.csv
+
+# RAG: raw downloads and model weights are rebuilt with rag/fetch_corpus.py and
+# rag/fetch_model.py (hashes recorded in rag/corpus/fetch_log.json, model_info.json).
+rag/corpus/raw/
+rag/models/*/model.onnx
+rag/index/

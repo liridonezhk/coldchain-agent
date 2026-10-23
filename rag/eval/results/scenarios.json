@@ -1,0 +1,65 @@
+[
+  {
+    "id": "s1",
+    "expect": "CORRECT",
+    "top": "LOOKALIKE",
+    "quoted": "OTHER",
+    "support": 0.6875,
+    "top_chunk": "fda-pmo-2023#14",
+    "answer": "\u201cAll pasteurized milk and milk products to be condensed and/or dried, shall be stored at a temperature of 10\u00b0C (50\u00b0F) or less and be maintained thereat until further processed.\u201d [fda-pmo-2023#17] \u201cAll pasteurized milk and milk products, except the following, shall be stored at a temperature of 7\u00b0C (45\u00b0F) or less and maintained thereat following filling or until further processed:\u201d [fda-pmo-2023#14]"
+  },
+  {
+    "id": "s2",
+    "expect": "CORRECT",
+    "top": "CORRECT",
+    "quoted": "CORRECT",
+    "support": 0.6744,
+    "top_chunk": "fda-pmo-2023#18",
+    "answer": "\u201cOn delivery vehicles, the temperature of milk and milk products shall not exceed 7\u00b0C (45\u00b0F).\u201d [fda-pmo-2023#18] \u201cAll pasteurized milk and milk products to be condensed and/or dried, shall be stored at a temperature of 10\u00b0C (50\u00b0F) or less and be maintained thereat until further processed.\u201d [fda-pmo-2023#17]"
+  },
+  {
+    "id": "s3",
+    "expect": "CORRECT",
+    "top": "OTHER",
+    "quoted": "OTHER",
+    "support": 0.6137,
+    "top_chunk": "fda-pmo-2023#14",
+    "answer": "\u201c(4) The FOOD shall be: (a) Discarded if the temperature of the food exceeds 21\u00b0C (70\u00b0F), P or (b) Cooked and served, served at any temperature if ready-to-eat, or discarded within a maximum of 6 hours from the point in time when the food is removed from 5 \u00b0C (41 \u00b0F) or less cold holding temperature control;\u201d [fda-food-code-2022#31] \u201cAll yogurt products at all milkfat levels, cultured in the cup after filling (cup- set) and subsequently moved out of the culturing room when reaching a pH of 4.80 or below, and a pH of 4.6 or below within the following twenty-four (24) hours* and cooled to 7\u00b0C (45\u00b0F) or less within ninety-six (96) hours of being moved out of the culturing room**;\u201d [fda-pmo-2023#14]"
+  },
+  {
+    "id": "s4",
+    "expect": "CORRECT",
+    "top": "OTHER",
+    "quoted": "OTHER",
+    "support": 0.6874,
+    "top_chunk": "eu-853-2004#109",
+    "answer": "\u201cAs soon as the meat is cut and, where appropriate, packaged, it must be chilled to a temperature of not more than 4 \u00b0C.\u201d [eu-853-2004#109] \u201cHowever, food business operators carrying out a retail activity may freeze meat in view of its redistribution for the purpose of food donations in accordance with the following conditions: (i) in the case of meat for which a \u2018use by\u2019 date is applied in accordance with Article 24 of Regulation (EU) No 1169/2011, before the expiry of that date; (ii) without undue delay to a temperature of -18 \u00b0C or lower; (iii) ensuring that the date of freezing is documented and provided either on the label or by other means; (iv) excluding meat that has been frozen before (defrosted meat); and, (v) in accordance with any condition laid down by the competent authorities for freezing and further use as food. \u25bcM9 6.\u201d [eu-853-2004#110]"
+  },
+  {
+    "id": "s5",
+    "expect": "CORRECT",
+    "top": "CORRECT",
+    "quoted": "CORRECT",
+    "support": 0.6746,
+    "top_chunk": "eu-853-2004#109",
+    "answer": "\u201cAs soon as the meat is cut and, where appropriate, packaged, it must be chilled to a temperature of not more than 4 \u00b0C.\u201d [eu-853-2004#109] \u201cHowever, food business operators carrying out a retail activity may freeze meat in view of its redistribution for the purpose of food donations in accordance with the following conditions: (i) in the case of meat for which a \u2018use by\u2019 date is applied in accordance with Article 24 of Regulation (EU) No 1169/2011, before the expiry of that date; (ii) without undue delay to a temperature of -18 \u00b0C or lower; (iii) ensuring that the date of freezing is documented and provided either on the label or by other means; (iv) excluding meat that has been frozen before (defrosted meat); and, (v) in accordance with any condition laid down by the competent authorities for freezing and further use as food. \u25bcM9 6.\u201d [eu-853-2004#110]"
+  },
+  {
+    "id": "s6",
+    "expect": "CORRECT",
+    "top": "CORRECT",
+    "quoted": "OTHER",
+    "support": 0.738,
+    "top_chunk": "eu-853-2004#224",
+    "answer": "\u201cAll raw milk and milk products shall be maintained at 7\u00b0C (45\u00b0F) or less until processed.\u201d [fda-pmo-2023#10] \u201cImmediately after milking, milk and colostrum must be held in a clean place designed and equipped to avoid contamination. (a) Milk must be cooled immediately to not more than 8 \u00b0C in the case of daily collection, or not more than 6 \u00b0C if collection is not daily; (b) Colostrum must be stored separately and immediately cooled to not more than 8 \u00b0C in the case of daily collection, or not more than 6 \u00b0C if collection is not daily, or frozen.\u201d [eu-853-2004#224]"
+  },
+  {
+    "id": "s7",
+    "expect": "ABSTAINED",
+    "top": "ABSTAINED",
+    "quoted": "ABSTAINED",
+    "support": 0.5921,
+    "top_chunk": "fda-food-code-2022#31",
+    "answer": "The guidance corpus does not cover this, so I can't cite a rule for it. Escalating to a human rather than answering from general knowledge."
+  }
+]

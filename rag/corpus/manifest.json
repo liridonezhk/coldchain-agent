@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fda-food-code-2022",
+    "title": "FDA Food Code 2022",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/media/164194/download",
+    "licence": "US federal government work (public domain, 17 U.S.C. 105)",
+    "landing_page": "https://www.fda.gov/food/fda-food-code/food-code-2022",
+    "note": null,
+    "served_url": "https://www.fda.gov/media/164194/download",
+    "retrieved_at": "2026-10-23T12:55:10+00:00",
+    "raw_sha256": "aa523bbee8e4fd90a2b6eb9394943c724b74949c0046fa6e0f147a5348f6d93f",
+    "raw_bytes": 4990051,
+    "pdf_pages_kept": [
+      [
+        69,
+        72
+      ],
+      [
+        90,
+        100
+      ]
+    ],
+    "text_file": "text/fda-food-code-2022.txt",
+    "text_words": 5362
+  },
+  {
+    "id": "fda-pmo-2023",
+    "title": "Grade \"A\" Pasteurized Milk Ordinance, 2023 Revision",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/media/180975/download",
+    "licence": "US federal government work (public domain, 17 U.S.C. 105)",
+    "landing_page": "https://www.fda.gov/food/milk-guidance-documents-regulatory-information/national-conference-interstate-milk-shipments-ncims-model-documents",
+    "note": null,
+    "served_url": "https://www.fda.gov/media/180975/download",
+    "retrieved_at": "2026-10-23T12:55:14+00:00",
+    "raw_sha256": "94efd27f28d545dcf54925bfa2d8b64919f9c0412fb209b6a3c8b348281ac506",
+    "raw_bytes": 17220115,
+    "pdf_pages_kept": [
+      [
+        56,
+        58
+      ],
+      [
+        136,
+        138
+      ]
+    ],
+    "text_file": "text/fda-pmo-2023.txt",
+    "text_words": 3189
+  },
+  {
+    "id": "ecfr-21-1-subpart-o",
+    "title": "21 CFR Part 1 Subpart O - Sanitary Transportation of Human and Animal Food",
+    "publisher": "U.S. National Archives (eCFR)",
+    "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?part=1&subpart=O",
+    "licence": "US federal government work (public domain)",
+    "landing_page": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-O",
+    "note": null,
+    "served_url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?chapter=I&subchapter=A&part=1&subpart=O",
+    "retrieved_at": "2026-10-23T12:55:16+00:00",
+    "raw_sha256": "9c615352a695dce8c2749a139a1633c6038ae7f2f8a3b25de8d369032dac08ca",
+    "raw_bytes": 61973,
+    "pdf_pages_kept": null,
+    "text_file": "text/ecfr-21-1-subpart-o.txt",
+    "text_words": 4524
+  },
+  {
+    "id": "fsa-chilling",
+    "title": "Chilling",
+    "publisher": "UK Food Standards Agency",
+    "url": "https://www.gov.uk/food-hygiene-businesses/chilling-and-freezing",
+    "licence": "Open Government Licence v3.0",
+    "landing_page": null,
+    "note": null,
+    "served_url": "https://www.gov.uk/food-hygiene-businesses/chilling-and-freezing",
+    "retrieved_at": "2026-10-23T12:55:18+00:00",
+    "raw_sha256": "1375606632713f47c78fff4d9f337e5ae270a423e16ea4b9c6bc13aff6ad07ab",
+    "raw_bytes": 70778,
+    "pdf_pages_kept": null,
+    "text_file": "text/fsa-chilling.txt",
+    "text_words": 289
+  },
+  {
+    "id": "eu-853-2004",
+    "title": "Regulation (EC) No 853/2004 - specific hygiene rules for food of animal origin (consolidated)",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/7f00c98f-74b0-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "landing_page": "https://eur-lex.europa.eu/eli/reg/2004/853",
+    "note": "fetched via EU Publications Office Cellar (consolidated version 02004R0853-20260507; 02004R0853-20250105 does not exist in Cellar)",
+    "served_url": "https://publications.europa.eu/resource/cellar/7f00c98f-74b0-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+    "retrieved_at": "2026-10-23T12:58:34+00:00",
+    "raw_sha256": "71b899295749ec55d437a8b4536e8c8df09c06e179b1649df81de63bb3506deb",
+    "raw_bytes": 778767,
+    "pdf_pages_kept": null,
+    "text_file": "text/eu-853-2004.txt",
+    "text_words": 37545
+  },
+  {
+    "id": "eu-37-2005",
+    "title": "Commission Regulation (EC) No 37/2005 - monitoring of temperatures of quick-frozen foodstuffs",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/fadbb4db-70e7-4bb2-916d-786f153b9446.0005.03/DOC_1",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "landing_page": "https://eur-lex.europa.eu/eli/reg/2005/37/oj",
+    "note": "fetched via EU Publications Office Cellar (CELEX 32005R0037)",
+    "served_url": "https://publications.europa.eu/resource/cellar/fadbb4db-70e7-4bb2-916d-786f153b9446.0005.03/DOC_1",
+    "retrieved_at": "2026-10-23T12:58:34+00:00",
+    "raw_sha256": "218fb5ce95f3eb72c2691ea6f182c3fac140ba02f64c228f858fdee1b7879b89",
+    "raw_bytes": 16910,
+    "pdf_pages_kept": null,
+    "text_file": "text/eu-37-2005.txt",
+    "text_words": 838
+  },
+  {
+    "id": "eu-dir-89-108",
+    "title": "Council Directive 89/108/EEC - quick-frozen foodstuffs (consolidated)",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/fa8228cb-7e97-44b5-b179-69782bf59125.0006.03/DOC_1",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "landing_page": "https://eur-lex.europa.eu/eli/dir/1989/108/oj",
+    "note": "fetched via EU Publications Office Cellar (consolidated version 01989L0108-20130701; 01989L0108-20090807 does not exist in Cellar)",
+    "served_url": "https://publications.europa.eu/resource/cellar/fa8228cb-7e97-44b5-b179-69782bf59125.0006.03/DOC_1",
+    "retrieved_at": "2026-10-23T12:58:35+00:00",
+    "raw_sha256": "53cfb065de017abea00912f86e7332c161bbfdad178e51ea7b9e74fd443322b8",
+    "raw_bytes": 41537,
+    "pdf_pages_kept": null,
+    "text_file": "text/eu-dir-89-108.txt",
+    "text_words": 1755
+  }
+]

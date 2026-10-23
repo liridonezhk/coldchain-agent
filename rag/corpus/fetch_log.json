@@ -1,0 +1,109 @@
+[
+  {
+    "id": "fda-food-code-2022",
+    "url": "https://www.fda.gov/media/164194/download",
+    "final_url": "https://www.fda.gov/media/164194/download",
+    "status": 200,
+    "content_type": "application/pdf",
+    "file": "raw/fda-food-code-2022.pdf",
+    "bytes": 4990051,
+    "sha256": "aa523bbee8e4fd90a2b6eb9394943c724b74949c0046fa6e0f147a5348f6d93f",
+    "retrieved_at": "2026-10-23T12:55:10+00:00"
+  },
+  {
+    "id": "fda-pmo-2023",
+    "url": "https://www.fda.gov/media/180975/download",
+    "final_url": "https://www.fda.gov/media/180975/download",
+    "status": 200,
+    "content_type": "application/pdf",
+    "file": "raw/fda-pmo-2023.pdf",
+    "bytes": 17220115,
+    "sha256": "94efd27f28d545dcf54925bfa2d8b64919f9c0412fb209b6a3c8b348281ac506",
+    "retrieved_at": "2026-10-23T12:55:14+00:00"
+  },
+  {
+    "id": "ecfr-21-1-subpart-o",
+    "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?part=1&subpart=O",
+    "final_url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?chapter=I&subchapter=A&part=1&subpart=O",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "file": "raw/ecfr-21-1-subpart-o.html",
+    "bytes": 61973,
+    "sha256": "9c615352a695dce8c2749a139a1633c6038ae7f2f8a3b25de8d369032dac08ca",
+    "retrieved_at": "2026-10-23T12:55:16+00:00"
+  },
+  {
+    "id": "fsis-danger-zone",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsis-refrigeration",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsis-freezing",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsis-emergencies",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsis-leftovers",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsis-dating",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-product-dating",
+    "error": "<HTTPError 403: 'Forbidden'>"
+  },
+  {
+    "id": "fsa-chilling",
+    "url": "https://www.gov.uk/food-hygiene-businesses/chilling-and-freezing",
+    "final_url": "https://www.gov.uk/food-hygiene-businesses/chilling-and-freezing",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "file": "raw/fsa-chilling.html",
+    "bytes": 70778,
+    "sha256": "1375606632713f47c78fff4d9f337e5ae270a423e16ea4b9c6bc13aff6ad07ab",
+    "retrieved_at": "2026-10-23T12:55:18+00:00"
+  },
+  {
+    "id": "eu-853-2004",
+    "url": "https://publications.europa.eu/resource/cellar/7f00c98f-74b0-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+    "final_url": "https://publications.europa.eu/resource/cellar/7f00c98f-74b0-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+    "status": 200,
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "file": "raw/eu-853-2004.html",
+    "bytes": 778767,
+    "sha256": "71b899295749ec55d437a8b4536e8c8df09c06e179b1649df81de63bb3506deb",
+    "retrieved_at": "2026-10-23T12:58:34+00:00"
+  },
+  {
+    "id": "eu-37-2005",
+    "url": "https://publications.europa.eu/resource/cellar/fadbb4db-70e7-4bb2-916d-786f153b9446.0005.03/DOC_1",
+    "final_url": "https://publications.europa.eu/resource/cellar/fadbb4db-70e7-4bb2-916d-786f153b9446.0005.03/DOC_1",
+    "status": 200,
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "file": "raw/eu-37-2005.html",
+    "bytes": 16910,
+    "sha256": "218fb5ce95f3eb72c2691ea6f182c3fac140ba02f64c228f858fdee1b7879b89",
+    "retrieved_at": "2026-10-23T12:58:34+00:00"
+  },
+  {
+    "id": "eu-dir-89-108",
+    "url": "https://publications.europa.eu/resource/cellar/fa8228cb-7e97-44b5-b179-69782bf59125.0006.03/DOC_1",
+    "final_url": "https://publications.europa.eu/resource/cellar/fa8228cb-7e97-44b5-b179-69782bf59125.0006.03/DOC_1",
+    "status": 200,
+    "content_type": "application/xhtml+xml;charset=UTF-8",
+    "file": "raw/eu-dir-89-108.html",
+    "bytes": 41537,
+    "sha256": "53cfb065de017abea00912f86e7332c161bbfdad178e51ea7b9e74fd443322b8",
+    "retrieved_at": "2026-10-23T12:58:35+00:00"
+  }
+]

@@ -1,0 +1,7 @@
+# Optional deps for the retrieval layer (rag/). The BM25 retriever, evaluation harness and
+# fetch scripts need only the standard library; these are for PDF extraction and the
+# embedding retriever.
+pypdf>=4.0           # rag/extract_corpus.py: text from the FDA PDFs
+numpy>=1.26          # rag/embeddings.py: vector store (a matrix) + cosine similarity
+onnxruntime>=1.17    # rag/embeddings.py: runs the embedding model, no torch needed
+tokenizers>=0.15     # rag/embeddings.py: the model's own WordPiece tokenizer

@@ -1,0 +1,251 @@
+## Subpart O—Sanitary Transportation of Human and Animal Food
+
+#### Source:
+
+81 FR 20166, Apr. 6, 2016, unless otherwise noted.
+
+### General Provisions
+
+#### § 1.900 Who is subject to this subpart?
+
+(a) Except for non-covered businesses as defined in § 1.904 and as provided for in paragraph (b) of this section, the requirements of this subpart apply to shippers, receivers, loaders, and carriers engaged in transportation operations whether or not the food is being offered for or enters interstate commerce. The requirements of this subpart apply in addition to any other requirements of this chapter that are applicable to the transportation of food, e.g., in 21 CFR parts 1, 117, 118, 225, 507, and 589.
+
+(b) The requirements of this subpart do not apply to shippers, receivers, loaders, or carriers when they are engaged in transportation operations:
+
+(1) Of food that is transshipped through the United States to another country; or
+
+(2) Of food that is imported for future export, in accordance with section 801(d)(3) of the Federal Food, Drug, and Cosmetic Act, and that is neither consumed nor distributed in the United States; or
+
+(3) Of food when it is located in food facilities as defined in § 1.227 of this chapter, that are regulated exclusively, throughout the entire facility, by the U.S. Department of Agriculture under the Federal Meat Inspection Act (21 U.S.C. 601 et seq.), the Poultry Products Inspection Act (21 U.S.C. 451 et seq.), or the Egg Products Inspection Act (21 U.S.C. 1031 et seq.).
+
+#### § 1.902 How do the criteria and definitions in this subpart apply under the Federal Food, Drug, and Cosmetic Act?
+
+(a) The criteria and definitions of this subpart apply in determining whether food is adulterated within the meaning of section 402(i) of the Federal Food, Drug, and Cosmetic Act in that the food has been transported or offered for transport by a shipper, carrier by motor vehicle or rail vehicle, loader, or receiver engaged in transportation operations under conditions that are not in compliance with this subpart.
+
+(b) The failure by a shipper, carrier by motor vehicle or rail vehicle, loader, or receiver engaged in transportation operations to comply with the requirements of this subpart is a prohibited act under section 301(hh) of the Federal Food, Drug, and Cosmetic Act.
+
+#### § 1.904 What definitions apply to this subpart?
+
+The definitions and interpretations of terms in section 201 of the Federal Food, Drug, and Cosmetic Act are applicable to such terms when used in this part. The following definitions also apply:
+
+Adequate means that which is needed to accomplish the intended purpose in keeping with good public health practice.
+
+Animal food means food for animals other than man, and includes pet food, animal feed, and raw materials and ingredients.
+
+Bulk vehicle means a tank truck, hopper truck, rail tank car, hopper car, cargo tank, portable tank, freight container, or hopper bin, or any other vehicle in which food is shipped in bulk, with the food coming into direct contact with the vehicle.
+
+Carrier means a person who physically moves food by rail or motor vehicle in commerce within the United States. The term carrier does not include any person who transports food while operating as a parcel delivery service.
+
+Cross-contact means the unintentional incorporation of a food allergen as defined in section 201(qq) of the Federal Food, Drug, and Cosmetic Act into food, except animal food.
+
+Farm has the meaning given in § 1.227 of this chapter.
+
+Food not completely enclosed by a container means any food that is placed into a container in such a manner that it is partially open to the surrounding environment. Examples of such containers include an open wooden basket or crate, an open cardboard box, a vented cardboard box with a top, or a vented plastic bag. This term does not include food transported in a bulk vehicle as defined in this subpart.
+
+Full-time equivalent employee is a term used to represent the number of employees of a business entity for the purpose of determining whether the business is a small business. The number of full-time equivalent employees is determined by dividing the total number of hours of salary or wages paid directly to employees of the business entity and of all of its affiliates and subsidiaries by the number of hours of work in 1 year, 2,080 hours (i.e., 40 hours x 52 weeks). If the result is not a whole number, round down to the next lowest whole number.
+
+Loader means a person that loads food onto a motor or rail vehicle during transportation operations.
+
+Non-covered business means a shipper, loader, receiver, or carrier engaged in transportation operations that has less than $500,000, as adjusted for inflation, in average annual revenues, calculated on a rolling basis, during the 3-year period preceding the applicable calendar year. For the purpose of determining an entity's 3-year average revenue threshold as adjusted for inflation, the baseline year for calculating the adjustment for inflation is 2011.
+
+Operating temperature means a temperature sufficient to ensure that under foreseeable circumstances of temperature variation during transport, e.g., seasonal conditions, refrigeration unit defrosting, multiple vehicle loading and unloading stops, the operation will meet the requirements of § 1.908(a)(3).
+
+Pest means any objectionable animals or insects including birds, rodents, flies, and larvae.
+
+Receiver means any person who receives food at a point in the United States after transportation, whether or not that person represents the final point of receipt for the food.
+
+Shipper means a person, e.g., the manufacturer or a freight broker, who arranges for the transportation of food in the United States by a carrier or multiple carriers sequentially.
+
+Small business means a business employing fewer than 500 full-time equivalent employees except that for carriers by motor vehicle that are not also shippers and/or receivers, this term would mean a business subject to § 1.900(a) having less than $27,500,000 in annual receipts.
+
+Transportation means any movement of food in by motor vehicle or rail vehicle in commerce within the United States.
+
+Transportation equipment means equipment used in food transportation operations, e.g., bulk and non-bulk containers, bins, totes, pallets, pumps, fittings, hoses, gaskets, loading systems, and unloading systems. Transportation equipment also includes a railcar not attached to a locomotive or a trailer not attached to a tractor.
+
+Transportation operations means all activities associated with food transportation that may affect the sanitary condition of food including cleaning, inspection, maintenance, loading and unloading, and operation of vehicles and transportation equipment. Transportation operations do not include any activities associated with the transportation of food that is completely enclosed by a container except a food that requires temperature control for safety, compressed food gases, food contact substances as defined in section 409(h)(6) of the Federal Food, Drug, and Cosmetic Act, human food byproducts transported for use as animal food without further processing, or live food animals except molluscan shellfish. In addition, transportation operations do not include any transportation activities that are performed by a farm.
+
+Vehicle means a land conveyance that is motorized, e.g., a motor vehicle, or that moves on rails, e.g., a railcar, which is used in transportation operations.
+
+### Vehicles and Transportation Equipment
+
+#### § 1.906 What requirements apply to vehicles and transportation equipment?
+
+(a) Vehicles and transportation equipment used in transportation operations must be so designed and of such material and workmanship as to be suitable and adequately cleanable for their intended use to prevent the food they transport from becoming unsafe, i.e., adulterated within the meaning of section 402(a)(1), (2), and (4) of the Federal Food, Drug, and Cosmetic Act during transportation operations.
+
+(b) Vehicles and transportation equipment must be maintained in such a sanitary condition for their intended use as to prevent the food they transport from becoming unsafe during transportation operations.
+
+(c) Vehicles and transportation equipment used in transportation operations for food requiring temperature control for safety must be designed, maintained, and equipped as necessary to provide adequate temperature control to prevent the food from becoming unsafe during transportation operations.
+
+(d) Vehicles and transportation equipment must be stored in a manner that prevents it from harboring pests or becoming contaminated in any other manner that could result in food for which it will be used becoming unsafe during transportation operations.
+
+### Transportation Operations
+
+#### § 1.908 What requirements apply to transportation operations?
+
+(a) General requirements.
+
+(1) Unless stated otherwise in this section, the requirements of this section apply to all shippers, carriers, loaders, and receivers engaged in transportation operations. A person may be subject to these requirements in multiple capacities, e.g., the shipper may also be the loader and the carrier, if the person also performs the functions of those respective persons as defined in this subpart. An entity subject to this subpart (shipper, loader, carrier, or receiver) may reassign, in a written agreement, its responsibilities under this subpart to another party subject to this subpart. The written agreement is subject to the records requirements of § 1.912(d).
+
+(2) Responsibility for ensuring that transportation operations are carried out in compliance with all requirements in this subpart must be assigned to competent supervisory personnel.
+
+(3) All transportation operations must be conducted under such conditions and controls necessary to prevent the food from becoming unsafe during transportation operations including:
+
+(i) Taking effective measures such as segregation, isolation, or the use of packaging to protect food from contamination by raw foods and nonfood items in the same load.
+
+(ii) Taking effective measures such as segregation, isolation, or other protective measures, such as hand washing, to protect food transported in bulk vehicles or food not completely enclosed by a container from contamination and cross-contact during transportation operations.
+
+(iii) Taking effective measures to ensure that food that requires temperature control for safety is transported under adequate temperature control.
+
+(4) The type of food, e.g., animal feed, pet food, human food, and its production stage, e.g., raw material, ingredient or finished food, must be considered in determining the necessary conditions and controls for the transportation operation.
+
+(5) Shippers, receivers, loaders, and carriers, which are under the ownership or operational control of a single legal entity, as an alternative to meeting the requirements of paragraphs (b), (d), and (e) of this section may conduct transportation operations in conformance with common, integrated written procedures that ensure the sanitary transportation of food consistent with the requirements of this section. The written procedures are subject to the records requirements of § 1.912(e).
+
+(6) If a shipper, loader, receiver, or carrier becomes aware of an indication of a possible material failure of temperature control or other conditions that may render the food unsafe during transportation, the food shall not be sold or otherwise distributed, and these persons must take appropriate action including, as necessary, communication with other parties to ensure that the food is not sold or otherwise distributed unless a determination is made by a qualified individual that the temperature deviation or other condition did not render the food unsafe.
+
+(b) Requirements applicable to shippers engaged in transportation operations.
+
+(1) Unless the shipper takes other measures in accordance with paragraph (b)(3) of this section to ensure that vehicles and equipment used in its transportation operations are in appropriate sanitary condition for the transportation of the food, i.e., that will prevent the food from becoming unsafe, the shipper must specify to the carrier and, when necessary, the loader, in writing, all necessary sanitary specifications for the carrier's vehicle and transportation equipment to achieve this purpose, including any specific design specifications and cleaning procedures. One-time notification shall be sufficient unless the design requirements and cleaning procedures required for sanitary transport change based upon the type of food being transported, in which case the shipper shall so notify the carrier in writing before the shipment. The information submitted by the shipper to the carrier is subject to the records requirements in § 1.912(a).
+
+(2) Unless the shipper takes other measures in accordance with paragraph (b)(5) of this section to ensure that adequate temperature control is provided during the transportation of food that requires temperature control for safety under the conditions of shipment, a shipper of such food must specify in writing to the carrier, except a carrier who transports the food in a thermally insulated tank, and, when necessary, the loader, an operating temperature for the transportation operation including, if necessary, the pre-cooling phase. One-time notification shall be sufficient unless a factor, e.g., the conditions of shipment, changes, necessitating a change in the operating temperature, in which case the shipper shall so notify the carrier in writing before the shipment. The information submitted by the shipper to the carrier is subject to the records requirements in § 1.912(a).
+
+(3) A shipper must develop and implement written procedures, subject to the records requirements of § 1.912(a), adequate to ensure that vehicles and equipment used in its transportation operations are in appropriate sanitary condition for the transportation of the food, i.e., will prevent the food from becoming unsafe during the transportation operation. Measures to implement these procedures may be accomplished by the shipper or by the carrier or another party covered by this subpart under a written agreement subject to the records requirements of § 1.912(a).
+
+(4) A shipper of food transported in bulk must develop and implement written procedures, subject to the records requirements of § 1.912(a), adequate to ensure that a previous cargo does not make the food unsafe. Measures to ensure the safety of the food may be accomplished by the shipper or by the carrier or another party covered by this subpart under a written agreement subject to the records requirements of § 1.912(a).
+
+(5) The shipper of food that requires temperature control for safety under the conditions of shipment must develop and implement written procedures, subject to the records requirements of § 1.912(a), to ensure that the food is transported under adequate temperature control. Measures to ensure the safety of the food may be accomplished by the shipper or by the carrier or another party covered by this subpart under a written agreement subject to the records requirements of § 1.912(a) and must include measures equivalent to those specified for carriers under paragraphs (e)(1) through (3) of this section.
+
+(c) Requirements applicable to loaders engaged in transportation operations.
+
+(1) Before loading food not completely enclosed by a container onto a vehicle or into transportation equipment the loader must determine, considering, as appropriate, specifications provided by the shipper in accordance with paragraph (b)(1) of this section, that the vehicle or transportation equipment is in appropriate sanitary condition for the transport of the food, e.g., it is in adequate physical condition, and free of visible evidence of pest infestation and previous cargo that could cause the food to become unsafe during transportation. This may be accomplished by any appropriate means.
+
+(2) Before loading food that requires temperature control for safety, the loader must verify, considering, as appropriate, specifications provided by the shipper in accordance with paragraph (b)(2) of this section, that each mechanically refrigerated cold storage compartment or container is adequately prepared for the transportation of such food, including that it has been properly pre-cooled, if necessary, and meets other sanitary conditions for food transportation.
+
+(d) Requirements applicable to receivers engaged in transportation operations. Upon receipt of food that requires temperature control for safety under the conditions of shipment, the receiver must take steps to adequately assess that the food was not subjected to significant temperature abuse, such as determining the food's temperature, the ambient temperature of the vehicle and its temperature setting, and conducting a sensory inspection, e.g., for off-odors.
+
+(e) Requirements applicable to carriers engaged in transportation operations. When the carrier and shipper have a written agreement that the carrier is responsible, in whole or in part, for sanitary conditions during the transportation operation, the carrier is responsible for the following functions as applicable per the agreement:
+
+(1) A carrier must ensure that vehicles and transportation equipment meet the shipper's specifications and are otherwise appropriate to prevent the food from becoming unsafe during the transportation operation.
+
+(2) A carrier must, once the transportation operation is complete and if requested by the receiver, provide the operating temperature specified by the shipper in accordance with paragraph (b)(2) of this section and, if requested by the shipper or receiver, demonstrate that it has maintained temperature conditions during the transportation operation consistent with the operating temperature specified by the shipper in accordance with paragraph (b)(2) of this section. Such demonstration may be accomplished by any appropriate means agreeable to the carrier and shipper, such as the carrier presenting measurements of the ambient temperature upon loading and unloading or time/temperature data taken during the shipment.
+
+(3) Before offering a vehicle or transportation equipment with an auxiliary refrigeration unit for use for the transportation of food that requires temperature control for safety under the conditions of the shipment during transportation, a carrier must pre-cool each mechanically refrigerated cold storage compartment as specified by the shipper in accordance with paragraph (b)(2) of this section.
+
+(4) If requested by the shipper, a carrier that offers a bulk vehicle for food transportation must provide information to the shipper that identifies the previous cargo transported in the vehicle.
+
+(5) If requested by the shipper, a carrier that offers a bulk vehicle for food transportation must provide information to the shipper that describes the most recent cleaning of the bulk vehicle.
+
+(6) A carrier must develop and implement written procedures subject to the records requirements of § 1.912(b) that:
+
+(i) Specify practices for cleaning, sanitizing if necessary, and inspecting vehicles and transportation equipment that the carrier provides for use in the transportation of food to maintain the vehicles and the transportation equipment in appropriate sanitary condition as required by § 1.906(b);
+
+(ii) Describe how it will comply with the provisions for temperature control in paragraph (e)(2) of this section, and;
+
+(iii) Describe how it will comply with the provisions for the use of bulk vehicles in paragraphs (e)(4) and (5) of this section.
+
+### Training
+
+#### § 1.910 What training requirements apply to carriers engaged in transportation operations?
+
+(a) When the carrier and shipper have agreed in a written contract that the carrier is responsible, in whole or in part, for the sanitary conditions during transportation operations, the carrier must provide adequate training to personnel engaged in transportation operations that provides an awareness of potential food safety problems that may occur during food transportation, basic sanitary transportation practices to address those potential problems, and the responsibilities of the carrier under this part. The training must be provided upon hiring and as needed thereafter.
+
+(b) Carriers must establish and maintain records documenting the training described in paragraph (a) of this section. Such records must include the date of the training, the type of training, and the person(s) trained. These records are subject to the records requirements of § 1.912(c).
+
+### Records
+
+#### § 1.912 What record retention and other records requirements apply to shippers, receivers, loaders, and carriers engaged in transportation operations?
+
+(a) Shippers must retain records:
+
+(1) That demonstrate that they provide specifications and operating temperatures to carriers as required by § 1.908(b)(1) and (2) as a regular part of their transportation operations for a period of 12 months beyond the termination of the agreements with the carriers.
+
+(2) Of written agreements and the written procedures required by § 1.908(b)(3), (4), and (5), for a period of 12 months beyond when the agreements and procedures are in use in their transportation operations.
+
+(b) Carriers must retain records of the written procedures required by § 1.908(e)(6) for a period of 12 months beyond when the agreements and procedures are in use in their transportation operations.
+
+(c) Carriers must retain training records required by § 1.910(b) for a period of 12 months beyond when the person identified in any such records stops performing the duties for which the training was provided.
+
+(d) Any person subject to this subpart must retain any other written agreements assigning tasks in compliance with this subpart for a period of 12 months beyond the termination of the agreements.
+
+(e) Shippers, receivers, loaders, and carriers, which operate under the ownership or control of a single legal entity in accordance with the provisions of § 1.908(a)(5), must retain records of the written procedures for a period of 12 months beyond when the procedures are in use in their transportation operations.
+
+(f) Shippers, receivers, loaders, and carriers must make all records required by this subpart available to a duly authorized individual promptly upon oral or written request.
+
+(g) All records required by this subpart must be kept as original records, true copies (such as photocopies, pictures, scanned copies, microfilm, microfiche, or other accurate reproductions of the original records), or electronic records.
+
+(h) Records that are established or maintained to satisfy the requirements of this subpart and that meet the definition of electronic records in § 11.3(b)(6) of this chapter are exempt from the requirements of part 11 of this chapter. Records that satisfy the requirements of this subpart, but that also are required under other applicable statutory provisions or regulations, remain subject to part 11 of this chapter.
+
+(i) Except for the written procedures required by § 1.908(e)(6)(i), offsite storage of records is permitted if such records can be retrieved and provided onsite within 24 hours of request for official review. The written procedures required by § 1.908(e)(6)(i) must remain onsite as long as the procedures are in use in transportation operations. Electronic records are considered to be onsite if they are accessible from an onsite location.
+
+(j) All records required by this subpart are subject to the disclosure requirements under part 20 of this chapter.
+
+### Waivers
+
+#### § 1.914 Under what circumstances will we waive a requirement of this subpart?
+
+We will waive any requirement of this subpart with respect to any class of persons, vehicles, food, or nonfood products, when we determine that:
+
+(a) The waiver will not result in the transportation of food under conditions that would be unsafe for human or animal health; and
+
+(b) The waiver will not be contrary to the public interest.
+
+#### § 1.916 When will we consider whether to waive a requirement of this subpart?
+
+We will consider whether to waive a requirement of this subpart on our own initiative or on the petition submitted under § 10.30 of this chapter by any person who is subject to the requirements of this subpart with respect to any class of persons, vehicles, food, or nonfood products.
+
+#### § 1.918 What must be included in the Statement of Grounds in a petition requesting a waiver?
+
+In addition to the requirements set forth in § 10.30 of this chapter, the Statement of Grounds in a petition requesting a waiver must:
+
+(a) Describe with particularity the waiver requested, including the persons, vehicles, food, or nonfood product(s) to which the waiver would apply and the requirement(s) of this subpart to which the waiver would apply; and
+
+(b) Present information demonstrating that the waiver will not result in the transportation of food under conditions that would be unsafe for human or animal health and will not be contrary to the public interest.
+
+#### § 1.920 What information submitted in a petition requesting a waiver or submitted in comments on such a petition is publicly available?
+
+We will presume that information submitted in a petition requesting a waiver and comments submitted on such a petition does not contain information exempt from public disclosure under part 20 of this chapter and would be made public as part of the docket associated with this request.
+
+#### § 1.922 Who will respond to a petition requesting a waiver?
+
+The Director or Deputy Directors of the Center for Food Safety and Applied Nutrition (CFSAN) or the Center for Veterinary Medicine (CVM), or the Director, Office of Compliance, CFSAN, or the Director, Office of Surveillance and Compliance, CVM, will respond to a petition requesting a waiver.
+
+#### § 1.924 What process applies to a petition requesting a waiver?
+
+(a) In general, the procedures set forth in § 10.30 of this chapter govern our response to a petition requesting a waiver.
+
+(b) Under § 10.30(h)(3) of this chapter, we will publish a notice in the Federal Register, requesting information and views on a filed petition, including information and views from persons who could be affected by the waiver if the petition were to be granted.
+
+(c) Under § 10.30(e)(3) of this chapter, we will respond to the petitioner in writing.
+
+(1) If we grant the petition, either in whole or in part, we will publish a notice in the Federal Register setting forth any waiver and the reasons for such waiver.
+
+(2) If we deny the petition (including partial denials), our written response to the petitioner will explain the reason(s) for the denial.
+
+(d) We will make readily accessible to the public, and periodically update, a list of filed petitions requesting waivers, including the status of each petition (for example, pending, granted, or denied).
+
+#### § 1.926 Under what circumstances may we deny a petition requesting a waiver?
+
+We may deny a petition requesting a waiver if the petition does not provide the information required under § 1.918 (including the requirements of § 10.30 of this chapter), or if we determine that the waiver could result in the transportation of food under conditions that would be unsafe for human or animal health, or that the waiver could be contrary to the public interest.
+
+#### § 1.928 What process will we follow when waiving a requirement of this subpart on our own initiative?
+
+If we, on our own initiative, determine that a waiver is appropriate, we will publish a notice in the Federal Register setting forth the waiver and the reasons for such waiver.
+
+#### § 1.930 When will a waiver that we grant become effective?
+
+Any waiver that we grant will become effective on the date that notice of the waiver is published in the Federal Register.
+
+#### § 1.932 Under what circumstances may we modify or revoke a waiver?
+
+We may modify or revoke a waiver if we determine that the waiver could result in the transportation of food under conditions that would be unsafe for human or animal health or that the waiver could be contrary to the public interest.
+
+#### § 1.934 What procedures apply if we determine that a waiver should be modified or revoked?
+
+(a) We will provide the following notifications:
+
+(1) We will notify the entity that initially requested the waiver, in writing at the address identified in its petition, if we determine that a waiver granted in response to its petition should be modified or revoked.
+
+(2) We will publish a notice of our determination that a waiver should be modified or revoked in the Federal Register. This notice will establish a public docket so that interested parties may submit written submissions on our determination.
+
+(b) We will consider timely written submissions submitted to the public docket from interested parties.
+
+(c) We will publish a notice of our decision in the Federal Register. The effective date of the decision will be the date of publication of the notice.

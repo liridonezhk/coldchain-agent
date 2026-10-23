@@ -50,6 +50,8 @@ SEED_CSV = next(
 _COLD_ZONES = ("cold", "frozen", "chill", "refrig")
 _COLD_CATEGORIES = ("dairy", "seafood", "produce", "fruit", "vegetable", "meat", "frozen")
 _SAFE_TEMP_MAX_C = 4.0
+# Where this stock sits, as the rule lookup needs it: jurisdiction and stage of the chain.
+SETTING = "refrigerated storage at a US food distributor"
 
 # Above this expedite cost, an order must pause for human approval (mirrors the MCP server).
 # Used only to pick a demo excursion victim whose replacement will actually trip the gate.
@@ -69,6 +71,7 @@ class Batch:
     supplier: str
     zone: str
     temp_ok: bool = True
+    hours_out_of_range: float = 0.0   # how long the batch has been above its safe range
 
     @property
     def is_cold(self) -> bool:
@@ -227,6 +230,7 @@ def get_inventory() -> list[dict]:
     return [{
         "batch_id": b.batch_id, "product": b.product, "category": b.category,
         "units": b.units, "days_to_expiry": b.days_to_expiry, "temp_ok": b.temp_ok,
+        "hours_out_of_range": b.hours_out_of_range,
         "is_cold": b.is_cold, "effective_shelf_days": b.effective_shelf_days,
         "unit_price": b.unit_price, "supplier": b.supplier, "zone": b.zone,
     } for b in INVENTORY]
@@ -320,11 +324,14 @@ def get_demand_estimate(product: str) -> int:
     return max(base + random.randint(-4, 4), 1)
 
 
-def inject_temp_excursion(batch_id: str | None = None, temp_c: float = 11.5) -> str:
+def inject_temp_excursion(batch_id: str | None = None, temp_c: float = 11.5,
+                          hours: float = 5.0) -> str:
     """
     Scripted demo event: a refrigeration failure takes a product's cold stock out of range.
     Collapses every cold batch of the target batch's product (a real fridge/zone failure hits
     more than one carton), so the coverage gap is real even when a product spans many batches.
+    `hours` is how long the stock sat out of range: together with the product class and the
+    temperature it decides which food-safety rule applies (see agents.specialists.compliance_agent).
     Returns the representative (target) batch_id.
     """
     batch_id = batch_id or _EXCURSION_TARGET
@@ -336,4 +343,5 @@ def inject_temp_excursion(batch_id: str | None = None, temp_c: float = 11.5) -> 
         if b.product == product and b.is_cold:
             _TEMP_FEED[b.batch_id] = temp_c
             b.temp_ok = False
+            b.hours_out_of_range = hours
     return batch_id
