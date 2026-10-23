@@ -1,0 +1,128 @@
+[
+  {
+    "id": "fda-food-code-2022",
+    "title": "FDA Food Code 2022",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/media/164194/download",
+    "landing_page": "https://www.fda.gov/food/fda-food-code/food-code-2022",
+    "format": "pdf",
+    "licence": "US federal government work (public domain, 17 U.S.C. 105)",
+    "why": "Retail cold holding (41F/5C), receiving temperatures, cooling, time as a public health control."
+  },
+  {
+    "id": "fda-pmo-2023",
+    "title": "Grade \"A\" Pasteurized Milk Ordinance, 2023 Revision",
+    "publisher": "U.S. Food and Drug Administration",
+    "url": "https://www.fda.gov/media/180975/download",
+    "landing_page": "https://www.fda.gov/food/milk-guidance-documents-regulatory-information/national-conference-interstate-milk-shipments-ncims-model-documents",
+    "format": "pdf",
+    "licence": "US federal government work (public domain, 17 U.S.C. 105)",
+    "why": "Milk-specific storage limit (45F/7C) - a deliberate near-miss against the Food Code's 41F."
+  },
+  {
+    "id": "ecfr-21-1-subpart-o",
+    "title": "21 CFR Part 1 Subpart O - Sanitary Transportation of Human and Animal Food",
+    "publisher": "U.S. National Archives (eCFR)",
+    "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-21?part=1&subpart=O",
+    "landing_page": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-1/subpart-O",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "Cold-chain transport duties: temperature control, pre-cooling, carrier responsibilities."
+  },
+  {
+    "id": "fsis-danger-zone",
+    "title": "Danger Zone (40 F - 140 F)",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "The 2-hour / 1-hour-above-90F rule - a near-miss against the 4-hour outage rule."
+  },
+  {
+    "id": "fsis-refrigeration",
+    "title": "Refrigeration and Food Safety",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "Refrigerator at or below 40F, storage times by product, what to do when the fridge fails."
+  },
+  {
+    "id": "fsis-freezing",
+    "title": "Freezing and Food Safety",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "0F storage, refreezing thawed food, partial thaw - frozen-vs-chilled near-misses."
+  },
+  {
+    "id": "fsis-emergencies",
+    "title": "Keep Your Food Safe During Emergencies: Power Outages, Floods & Fires",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "The 4-hour refrigerator rule and the 48/24-hour freezer rule after a power loss."
+  },
+  {
+    "id": "fsis-leftovers",
+    "title": "Leftovers and Food Safety",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "Cooling and refrigerated-storage limits for cooked food (3-4 days)."
+  },
+  {
+    "id": "fsis-dating",
+    "title": "Food Product Dating",
+    "publisher": "USDA Food Safety and Inspection Service",
+    "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-product-dating",
+    "format": "html",
+    "licence": "US federal government work (public domain)",
+    "why": "Use-by vs best-if-used-by; shelf life depends on handling."
+  },
+  {
+    "id": "fsa-chilling",
+    "title": "Chilling",
+    "publisher": "UK Food Standards Agency",
+    "url": "https://www.gov.uk/food-hygiene-businesses/chilling-and-freezing",
+    "format": "html",
+    "licence": "Open Government Licence v3.0",
+    "why": "UK 8C legal limit, 5C recommendation, display tolerances - a jurisdiction near-miss."
+  },
+  {
+    "id": "eu-853-2004",
+    "title": "Regulation (EC) No 853/2004 - specific hygiene rules for food of animal origin (consolidated)",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/7f00c98f-74b0-11f1-bf5e-01aa75ed71a1.0007.02/DOC_1",
+    "note": "fetched via EU Publications Office Cellar (consolidated version 02004R0853-20260507; 02004R0853-20250105 does not exist in Cellar)",
+    "landing_page": "https://eur-lex.europa.eu/eli/reg/2004/853",
+    "format": "html",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "why": "Product-class limits: meat 7C, offal 3C, poultry 4C, raw milk 6C/8C, fish at melting ice."
+  },
+  {
+    "id": "eu-37-2005",
+    "title": "Commission Regulation (EC) No 37/2005 - monitoring of temperatures of quick-frozen foodstuffs",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/fadbb4db-70e7-4bb2-916d-786f153b9446.0005.03/DOC_1",
+    "note": "fetched via EU Publications Office Cellar (CELEX 32005R0037)",
+    "landing_page": "https://eur-lex.europa.eu/eli/reg/2005/37/oj",
+    "format": "html",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "why": "Temperature recording during transport and storage of frozen food."
+  },
+  {
+    "id": "eu-dir-89-108",
+    "title": "Council Directive 89/108/EEC - quick-frozen foodstuffs (consolidated)",
+    "publisher": "European Union (EUR-Lex)",
+    "url": "https://publications.europa.eu/resource/cellar/fa8228cb-7e97-44b5-b179-69782bf59125.0006.03/DOC_1",
+    "note": "fetched via EU Publications Office Cellar (consolidated version 01989L0108-20130701; 01989L0108-20090807 does not exist in Cellar)",
+    "landing_page": "https://eur-lex.europa.eu/eli/dir/1989/108/oj",
+    "format": "html",
+    "licence": "EU legal acts, free reuse (Commission Decision 2011/833/EU)",
+    "why": "-18C for quick-frozen food and the brief upward tolerance during transport."
+  }
+]

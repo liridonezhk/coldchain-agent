@@ -1,0 +1,329 @@
+01989L0108 — EN — 01.07.2013 — 006.001
+
+This text is meant purely as a documentation tool and has no legal effect. The Union's institutions do not assume any liability for its contents. The authentic versions of the relevant acts, including their preambles, are those published in the Official Journal of the European Union and available in EUR-Lex. Those official texts are directly accessible through the links embedded in this document
+
+►B
+
+COUNCIL DIRECTIVE
+
+of 21 December 1988
+
+on the approximation of the laws of the Member States relating to quick-frozen foodstuffs for human consumption
+
+(89/108/EEC)
+
+(OJ L 040 11.2.1989, p. 34)
+
+Amended by:
+
+Official Journal
+
+No
+
+page
+
+date
+
+►M1
+
+REGULATION (EC) No 1882/2003 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 29 September 2003
+
+L 284
+
+1
+
+31.10.2003
+
+►M2
+
+COUNCIL DIRECTIVE 2006/107/EC of 20 November 2006
+
+L 363
+
+411
+
+20.12.2006
+
+►M3
+
+REGULATION (EC) No 1137/2008 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 22 October 2008
+
+L 311
+
+1
+
+21.11.2008
+
+►M4
+
+COUNCIL DIRECTIVE 2013/20/EU of 13 May 2013
+
+L 158
+
+234
+
+10.6.2013
+
+Amended by:
+
+A1
+
+ACT (94/C 241/08)
+
+C 241
+
+21
+
+29.8.1994
+
+L 001
+
+1
+
+..
+
+►A2
+
+ACT concerning the conditions of accession of the Czech Republic, the Republic of Estonia, the Republic of Cyprus, the Republic of Latvia, the Republic of Lithuania, the Republic of Hungary, the Republic of Malta, the Republic of Poland, the Republic of Slovenia and the Slovak Republic and the adjustments to the Treaties on which the European Union is founded
+
+L 236
+
+33
+
+23.9.2003
+
+▼B
+
+COUNCIL DIRECTIVE
+
+of 21 December 1988
+
+on the approximation of the laws of the Member States relating to quick-frozen foodstuffs for human consumption
+
+(89/108/EEC)
+
+## Article 1
+
+1. This Directive shall apply to quick-frozen foods intended for human consumption, hereinafter referred to as ‘quick-frozen foodstuffs’.
+
+2. For the purposes of this Directive ‘quick-frozen foodstuffs’means foodstuffs
+
+—
+
+which have undergone a suitable freezing process known as ‘quick-freezing’ whereby the zone of maximum crystallization is crossed as rapidly as possible, depending on the type of product, and the resulting temperature of the product (after thermal stabilization) is continuously maintained at a level of -18 °C or lower at all points, and
+
+—
+
+which are marketed in such a way as to indicate that they possess this characteristic.
+
+For the purposes of this Directive, ice-cream and other edible ices shall not be regarded as quick-frozen foodstuffs.
+
+3. This Directive shall apply without prejudice to Community provisions relating to:
+
+(a) the common organization of markets in the agricultural and fisheries sectors;
+
+(b) veterinary hygiene.
+
+## Article 2
+
+Only the products defined in Article 1 (2) may bear the names provided for in Articles 8 and 9.
+
+## Article 3
+
+1. Raw materials used in the manufacture of quick-frozen foodstuffs must be of sound, genuine and merchantable quality and be of the required degree of freshness
+
+2. Preparation and quick-freezing of products must be carried out promptly, using appropriate technical equipment, in order to limit chemical, biochemical and microbiological changes to a minimum.
+
+## Article 4
+
+The cryogenic media authorized, to the exclusion of all others, for use in direct contact with quick-frozen foodstuffs shall be the following:
+
+—
+
+air,
+
+—
+
+nitrogen,
+
+—
+
+carbon dioxide.
+
+By way of derogation from the first paragraph, Member States may retain until 31 December 1992 national laws authorizing the use of dichlorodifluoromethane (R 12) as a cryogenic medium.
+
+▼M3
+
+The purity criteria to be satisfied by those cryogenic media shall be determined, as far as necessary, by the Commission. Those measures, designed to amend non-essential elements of this Directive by supplementing it, shall be adopted in accordance with the regulatory procedure with scrutiny referred to in Article 12(2).
+
+▼B
+
+## Article 5
+
+1. The temperature of quick-frozen foodstuffs must be stable and maintained, at all points in the product, at -18 °C or lower, with possibly brief upward fluctuations of no more than 3 °C during transport.
+
+2. However, tolerances in the temperature of the product in accordance with good storage and distribution practice shall be permitted during local distribution and in retail display cabinets subject to the following conditions:
+
+(a) these tolerances shall not exceed 3 °C;
+
+(b) they may, however reach 6 °C in retail display cabinets, if and to the extent that the Member States so decide. In that case, the Member States shall select the temperature in the light of stock or product rotation in the retail trade. They shall inform the Commission of the measures taken and of the grounds for those measures.
+
+The Commission shall review the tolerance provided for in the previous subparagraph in the light of technical developments and shall make proposals to the Council if appropriate before 1 January 1993.
+
+3. For a period of eight years from the notification of this Directive, the Member States may, for local distribution, authorize tolerances of up to 6 °C.
+
+## Article 6
+
+1. The Member States shall:
+
+(a) ensure that the equipment used for quick-freezing, storage, transport, local distribution and retail display cabinets is such that compliance with the requirements of this Directive can be guaranteed;
+
+(b) conduct random official checks on the temperature of quick-frozen foodstuffs.
+
+2. Member States shall not require that, as a preliminary to or during the marketing of quick-frozen foodstuffs, compliance with the provisions of paragraph 1 be attested by means of an official certificate.
+
+## Article 7
+
+Quick-frozen foodstuffs intended for supply to the ultimate consumer must be packed by the manufacturer or packer in suitable pre-packaging which protects them from microbial or other forms of external contamination and against drying.
+
+## Article 8
+
+1. Directive 79/112/EEC shall apply to products covered by this Directive and intended for supply without further processing to the ultimate consumer and to restaurants, hospitals, canteens and other similar mass caterers on the following conditions:
+
+(a) one or more of the following shall be added to the sales name:
+
+in Danish: ‘ dybfrossen ’,
+
+in German: ‘ tiefgefroren ’ or ‘ Tiefkühlkost ’ or ‘ tiefgekühlt ’ or ‘ gefrostet ’,
+
+in Spanish: ‘ ultracongelado ’ or ‘ congelado rápidamente ’,
+
+in Greek: ‘ βαθείας κατάψυξης ’ or ‘ ταχείας κατάψυξης ’ or ‘ υπερ-κατεψυγμένα ’,
+
+in English: ‘quick-frozen’,
+
+in French: ‘ surgelé ’,
+
+in Italian: ‘ surgelato ’,
+
+in Dutch: ‘ diepvries ’,
+
+in Portuguese: ‘ ultracongelado ’,
+
+▼
+
+in Finnish: ‘ pakastettu ’,
+
+in Swedish: ‘ djupfryst ’,
+
+▼A2
+
+in Czech: ‘ hluboce zmrazené nebo hluboce zmrazená nebo hluboce zmrazený ’,
+
+in Estonian: ‘ sügavkülmutatud or külmutatud ’,
+
+in Latvian: ‘ ātri sasaldēts ’,
+
+in Lithuanian: ‘ greitai užšaldyti ’,
+
+in Hungarian: ‘ gyorsfagyasztott ’,
+
+in Maltese: ‘ iffriżat ’,
+
+in Polish: ‘ produkt głęboko mrożony ’,
+
+in Slovenian: ‘ hitro zamrznjen ’,
+
+in Slovak: ‘ hlbokozmrazené ’,
+
+▼M2
+
+in Bulgarian: ‘ бързо замразена ’,
+
+in Romanian: ‘ congelare rapidă ’,
+
+▼M4
+
+in Croatian: ‘ brzo smrznuto ’;
+
+▼B
+
+(b) in addition to the date of minimum durability, the period during which quick-frozen products may be stored by the purchaser and the storage temperature and/or type of storage equipment required must be indicated;
+
+(c) the labelling of any quick-frozen foodstuff must include a reference from which the batch may be identified;
+
+(d) the label of any quick-frozen foodstuff must bear a clear message of the type ‘do not refreeze after defrosting’.
+
+## Article 9
+
+1. The labelling of the products defined in Article 1 (2) which are not intended for sale to the ultimate consumer or to restaurants, hospitals, canteens and other similar mass caterers shall contain only the following mandatory particulars:
+
+(a) the sales name supplemented in accordance with Article 8 (1) (a) of this Directive;
+
+(b) the net quantity expressed in units of mass;
+
+(c) a reference enabling the batch to be identified;
+
+(d) the name or business name and address of the manufacturer or packer, or of a seller established within the Community.
+
+2. The particulars provided for in paragraph 1 shall appear on the packaging, container or wrapping, or on a label attached thereto.
+
+3. This Article shall not affect any Community metrological provisions which are more detailed or more comprehensive.
+
+## Article 10
+
+Member States may not, for reasons related to their manufacturing specifications, presentation or labelling, prohibit or restrict the marketing of any of the products defined in Article 1 (2) which comply with this Directive and, with measures taken for its application.
+
+▼M3
+
+## Article 11
+
+The sampling procedures for quick-frozen foodstuffs and the procedures for monitoring their temperature and for monitoring temperatures in the means of transport, warehousing and storage shall be determined by the Commission. Those measures, designed to amend non-essential elements of this Directive by supplementing it, shall be adopted in accordance with the regulatory procedure with scrutiny referred to in Article 12(2).
+
+▼M1
+
+## Article 12
+
+1. The Commission shall be assisted by the Standing Committee on the Food Chain and Animal Health, set up by Article 58 of Regulation (EC) No 178/2002 ( 6 ), hereinafter referred to as ‘the Committee’.
+
+▼M3
+
+2. Where reference is made to this paragraph, Article 5a(1) to (4) and Article 7 of Decision 1999/468/EC shall apply, having regard to the provisions of Article 8 thereof.
+
+▼M3 —————
+
+▼B
+
+## Article 13
+
+1. The Member States shall take the measures necessary to comply with this Directive. They shall forthwith inform the Commission thereof. The measures taken shall:
+
+—
+
+permit no later than 18 months after notification ( 7 ) of the Directive, trade in products which comply with this Directive,
+
+—
+
+prohibit no later than 24 months after notification of the Directive, trade in products which do not comply with this Directive.
+
+2. As regards retail display cabinets, for a period of eight years following notification of this Directive, Member States may retain the laws applying on the date when this Directive enters into force.
+
+In this case, the Member States shall inform the Commission, stating the reasons for their decision.
+
+## Article 14
+
+This Directive is addressed to the Member States.
+
+( 1 ) OJ No C 175, 15. 7. 1985, p. 296 and OJ No C 12, 16. 1. 1989.
+
+( 2 ) OJ No C 104, 25. 4. 1985, p. 17.
+
+( 3 ) OJ No L 33, 8. 2. 1979, p. 1.
+
+( 4 ) OJ No L 144, 29. 5. 1986, p. 38.
+
+( 5 ) OJ No L 291, 19. 11. 1969, p. 9.
+
+( 6 ) OJ L 31, 1.2.2002, p. 1.
+
+( 7 ) This Directive was notified to the Member States on 10 January 1989.
