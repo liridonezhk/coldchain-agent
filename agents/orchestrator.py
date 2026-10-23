@@ -21,6 +21,7 @@ def run_cycle(approve_fn=None) -> list[dict]:
     are surfaced as PENDING_APPROVAL and never auto-executed.
     """
     concerns = specialists.monitoring_agent()
+    findings = specialists.compliance_agent(concerns)
     demand = specialists.demand_agent()
     actions = specialists.replenishment_agent(concerns, demand)
 
@@ -28,6 +29,12 @@ def run_cycle(approve_fn=None) -> list[dict]:
 
     for a in ranked:
         order = a["order"]
+        rule = findings.get(a["product"])
+        if rule is not None:
+            a["rule"] = rule
+            if not rule["supported"]:
+                # No cited rule for this excursion -> a human decides, however cheap the order.
+                order["requires_approval"] = True
         if order.get("requires_approval"):
             # SECURITY GATE: irreversible + over cost threshold -> never auto-execute.
             if approve_fn and approve_fn(a):

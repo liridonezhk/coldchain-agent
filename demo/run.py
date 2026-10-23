@@ -31,6 +31,11 @@ def show(ranked):
         o = a["order"]
         print(f"  [{a['urgency']:>6}] {a['product']:<22.22} {o['status']:<18} "
               f"${o['cost_usd']:<5} — {a['reason']}")
+        if a.get("rule"):
+            r = a["rule"]
+            print(f"           rule: {r['answer']}")
+            for c in r.get("citations", []):
+                print(f"           cite: [{c['chunk_id']}] {c['title']} — {c['section'][-70:]}")
     if len(ranked) > SHOW_LIMIT:
         print(f"  … and {len(ranked) - SHOW_LIMIT} more")
     if not ranked:

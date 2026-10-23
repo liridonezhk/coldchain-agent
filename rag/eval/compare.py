@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 def main() -> None:
     rows = []
-    for path in sorted(glob.glob(os.path.join(HERE, "results", "*.json"))):
+    for path in sorted(glob.glob(os.path.join(HERE, "results", "*-*.json"))):
         s = json.load(open(path))["summary"]
         a, nm = s["all"], s["near_miss"]
         ab = s.get("abstain", {})

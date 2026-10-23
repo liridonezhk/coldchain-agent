@@ -75,6 +75,7 @@ except ImportError:  # google-adk / mcp not installed
 # consistent across both engines.
 from mcp_server.server import AUTO_APPROVE_LIMIT_USD  # noqa: E402
 from data import sim  # noqa: E402
+from rag.grounding import NOT_SUPPORTED, check_citations  # noqa: E402  (stdlib-only module)
 
 APP_NAME = "coldchain"
 
@@ -182,19 +183,41 @@ def build_orchestrator() -> "LlmAgent":
         tools=[tools],
     )
 
+    compliance = LlmAgent(
+        model=MODEL,
+        name="compliance_agent",
+        description="Finds the food-safety rule that applies to a temperature excursion and cites it.",
+        instruction=(
+            "You check temperature excursions against food-safety rules. Call get_inventory and "
+            "get_temp_feed; for each product with temp_ok=false, call search_guidance with one "
+            "question naming the product and its category, the temperature (°C), "
+            "hours_out_of_range, and the setting '" + sim.SETTING + "'. Then answer ONLY from the "
+            "passages it returns: quote the rule sentence you rely on in double quotes and put "
+            "its chunk_id in square brackets right after it, e.g. \"...\" [fda-food-code-2022#31]. "
+            "Prefer the passage whose product class, jurisdiction and stage of the chain match "
+            "the event; say so if the best passage is for a different product or jurisdiction. "
+            "If search_guidance returns supported=false, or no passage states a rule for this "
+            "case, reply exactly: '" + NOT_SUPPORTED + "' Never state a temperature or time "
+            "limit that is not in a retrieved passage."
+        ),
+        tools=[tools],
+    )
+
     orchestrator = LlmAgent(
         model=MODEL,
         name="orchestrator",
         description="Coordinates the specialists and ranks the final actions.",
         instruction=(
             "You are the orchestrator for a cold-chain inventory agent. Run the cycle: "
-            "1) call monitoring_agent for concerns, 2) call demand_agent for demand, "
-            "3) call replenishment_agent for proposed orders. Then output a single RANKED "
+            "1) call monitoring_agent for concerns, 2) if any concern is a temperature "
+            "excursion, call compliance_agent and keep its cited rule verbatim, 3) call "
+            "demand_agent for demand, 4) call replenishment_agent for proposed orders. Then output a single RANKED "
             "ACTION LIST ordered by urgency (high -> medium -> low). For each action show: "
             "urgency, product, status, cost, and the one-line reason. Any order marked "
             "PENDING_APPROVAL must be shown as paused, NOT executed."
         ),
-        tools=[AgentTool(agent=monitoring), AgentTool(agent=demand), AgentTool(agent=replenishment)],
+        tools=[AgentTool(agent=monitoring), AgentTool(agent=compliance), AgentTool(agent=demand),
+               AgentTool(agent=replenishment)],
         before_tool_callback=_approval_gate,
     )
     return orchestrator
@@ -227,9 +250,39 @@ async def run_cycle_adk(approve_fn=None, cycle: str = "normal") -> str:
     )
 
     final_text = ""
+    retrieved: list[dict] = []   # every passage search_guidance returned during the cycle
     async for event in runner.run_async(
         user_id="operator", session_id="cycle", new_message=prompt
     ):
+        for fr in event.get_function_responses() or []:
+            if fr.name == "search_guidance":
+                retrieved.extend(_passages(fr.response))
         if event.is_final_response() and event.content and event.content.parts:
             final_text = event.content.parts[0].text or ""
+
+    # Deterministic grounding check on the LLM's prose: citations must point at passages
+    # that were actually retrieved, and quotes must appear in them.
+    if retrieved:
+        problems = check_citations(final_text, retrieved)
+        if problems:
+            final_text += "\n\n  ⚠ GROUNDING CHECK FAILED — do not act on the cited rule:\n" + \
+                "\n".join(f"    - {p}" for p in problems)
     return final_text
+
+
+def _passages(response) -> list[dict]:
+    """Pull passages out of a search_guidance tool response (MCP wraps it as JSON text)."""
+    import json
+    if not isinstance(response, dict):
+        return []
+    for d in (response, response.get("structuredContent"), response.get("result")):
+        if isinstance(d, dict) and "passages" in d:
+            return d["passages"]
+    try:  # MCP CallToolResult -> {"content": [{"type": "text", "text": "<json>"}], ...}
+        for part in (response or {}).get("content", []):
+            data = json.loads(part.get("text", "{}"))
+            if "passages" in data:
+                return data["passages"]
+    except (AttributeError, ValueError, TypeError):
+        pass
+    return []

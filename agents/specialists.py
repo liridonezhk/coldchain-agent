@@ -23,7 +23,11 @@ def monitoring_agent() -> list[dict]:
             concerns.append({
                 "batch_id": bid, "product": item["product"],
                 "type": "TEMP_EXCURSION",
-                "detail": f"temp {temps.get(bid)}C out of range; shelf life collapsed",
+                "detail": (f"temp {temps.get(bid)}C out of range for "
+                           f"{item.get('hours_out_of_range', 0):g}h; shelf life collapsed"),
+                "category": item["category"],
+                "temp_c": temps.get(bid),
+                "hours": item.get("hours_out_of_range", 0),
                 "severity": "high",
             })
         elif item["days_to_expiry"] <= 4:
@@ -34,6 +38,37 @@ def monitoring_agent() -> list[dict]:
                 "severity": "medium",
             })
     return concerns
+
+
+def compliance_agent(concerns: list[dict]) -> dict[str, dict]:
+    """
+    For each product with a temperature excursion, retrieve the food-safety rule that applies
+    to its product class, temperature and duration (search_guidance over the rag/ corpus) and
+    return a grounded, cited finding per product:
+
+        {"supported": bool, "answer": "“<verbatim rule>” [chunk_id]", "citations": [...], "query": ...}
+
+    Deterministic: the answer is quoted from the retrieved passages, never generated. If the
+    corpus doesn't cover the case, supported=False and the orchestrator escalates to a human.
+    Needs requirements-rag.txt; without it, returns {} and the cycle runs as before.
+    """
+    try:
+        from rag.excursion import assess
+        from data.sim import SETTING
+    except ImportError:
+        return {}
+    findings: dict[str, dict] = {}
+    for c in concerns:
+        if c["type"] != "TEMP_EXCURSION" or c["product"] in findings:
+            continue
+        event = {"product": c["product"], "category": c["category"], "temp_c": c["temp_c"],
+                 "hours": c["hours"], "setting": SETTING}
+        try:
+            out = assess(event)
+        except ImportError:  # numpy / onnxruntime / tokenizers not installed
+            return {}
+        findings[c["product"]] = {**out["answer"], "query": out["query"]}
+    return findings
 
 
 def demand_agent() -> dict[str, int]:

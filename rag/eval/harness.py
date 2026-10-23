@@ -151,7 +151,7 @@ def main() -> int:
     from rag import retrievers
     ap = argparse.ArgumentParser()
     ap.add_argument("--retriever", choices=sorted(retrievers.REGISTRY), required=True)
-    ap.add_argument("--chunking", choices=["section", "fixed"], default="section")
+    ap.add_argument("--chunking", choices=["section", "fixed", "section-title"], default="section")
     args = ap.parse_args()
 
     texts = retrievers.load_texts()

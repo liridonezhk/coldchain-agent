@@ -6,7 +6,7 @@ Retrievers over the chunked corpus. Every retriever has the same interface:
 so the evaluation harness and the MCP tool don't care which one they get.
 """
 from __future__ import annotations
-import os
+import json, os
 
 from rag.bm25 import BM25
 from rag.chunking import STRATEGIES
@@ -20,8 +20,26 @@ def load_texts(text_dir: str = TEXT_DIR) -> dict[str, str]:
             for f in sorted(os.listdir(text_dir)) if f.endswith(".txt")}
 
 
+def _titles() -> dict[str, str]:
+    path = os.path.join(HERE, "corpus", "sources.json")
+    return {s["id"]: s["title"] for s in json.load(open(path))}
+
+
 def load_chunks(chunking: str = "section", texts: dict[str, str] | None = None) -> list[dict]:
+    """
+    chunking: "section" (heading-path prefix), "fixed" (200-word windows), or
+    "section-title" (section chunks with the document title prepended to the heading
+    path, for documents whose headings say little on their own, e.g. "Article 5").
+    """
     texts = texts or load_texts()
+    if chunking == "section-title":
+        titles = _titles()
+        out = []
+        for doc_id, t in texts.items():
+            for c in STRATEGIES["section"](doc_id, t):
+                c.text = f"{titles[doc_id]} > {c.text}"
+                out.append(c.to_dict())
+        return out
     split = STRATEGIES[chunking]
     return [c.to_dict() for doc_id, t in texts.items() for c in split(doc_id, t)]
 
