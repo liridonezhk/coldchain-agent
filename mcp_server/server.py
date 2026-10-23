@@ -1,7 +1,8 @@
 """
 MCP server — the data/tool layer the agents call.
 
-This exposes data/sim.py as Model Context Protocol tools. Four read tools are
+This exposes data/sim.py as Model Context Protocol tools, plus `search_guidance`, which
+retrieves passages from the food-safety corpus in rag/. The read tools are
 unrestricted; the ONE side-effectful tool (place_order) carries an `irreversible`
 flag and a `requires_approval` flag the orchestrator checks before allowing
 execution — this is where the security story lives.
@@ -49,6 +50,18 @@ def tool_get_demand(product: str) -> int:
     return sim.get_demand_estimate(product)
 
 
+def tool_search_guidance(query: str, k: int = 5) -> dict:
+    """
+    Search the food-safety and cold-chain guidance corpus (FDA Food Code, Pasteurized Milk
+    Ordinance, 21 CFR 1 Subpart O, UK FSA, EU 853/2004, 37/2005, 89/108). Returns the top-k
+    passages, each with chunk_id, document title, section, source URL and text, plus
+    `supported`: False when the corpus probably does not cover the query. Cite chunk_ids
+    for any rule you rely on; if supported is False, say the corpus does not cover it.
+    """
+    from rag.tool import search_guidance  # lazy: needs requirements-rag.txt
+    return search_guidance(query, k)
+
+
 # --- side-effectful tool (gated) -----------------------------------------
 def tool_place_order(product: str, units: int, expedite: bool = False) -> dict:
     """
@@ -77,6 +90,7 @@ TOOLS = {
     "get_temp_feed": tool_get_temp_feed,
     "get_supplier_status": tool_get_supplier_status,
     "get_demand": tool_get_demand,
+    "search_guidance": tool_search_guidance,
     "place_order": tool_place_order,
 }
 
